@@ -1,0 +1,74 @@
+{
+  "files-md5": "c6f73307493fd4271aa46b9bade0346b",
+  "strings-md5": "eee72967e74734e326d4238e8aeb4b19",
+  "input-files": [
+    {
+      "path": "../../../../third_party/android_deps/libs/com_google_errorprone_error_prone_annotations/error_prone_annotations-2.7.1.jar",
+      "tag": "5260e1257140bed1936991931cff5ed8"
+    },
+    {
+      "path": "../../../../third_party/android_sdk/public/platforms/android-31/android.jar",
+      "tag": 1724919989.7716122
+    },
+    {
+      "path": "../../../../third_party/r8/custom_d8.jar",
+      "tag": "fe02536f40adfc073a510bbbb6d1d3c6"
+    },
+    {
+      "path": "../../../../third_party/r8/lib/r8.jar",
+      "tag": 1724920210.4980195
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/convert_dex_profile.py",
+      "tag": "e6753afd87d704820e70607d34498860"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/dex.py",
+      "tag": "db06a4dc0d57633ca194f0ea7de00354"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/__init__.py",
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/build_utils.py",
+      "tag": "d34fc29fcf83df8b0e21275db4c7f835"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/md5_check.py",
+      "tag": "d316f5db484d36b4f31dadb1d8d516b5"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/zipalign.py",
+      "tag": "8818e89d00e608134a17cc6bbbd30885"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/gn_helpers.py",
+      "tag": "82ccabe8a44083433a315afa418e3a3e"
+    },
+    {
+      "path": "obj/third_party/android_deps/com_google_errorprone_error_prone_annotations.ijar.jar",
+      "tag": "d52a5536581e52b66fce1c599e0455a5"
+    }
+  ],
+  "input-strings": [
+    "../../../../third_party/jdk/current/bin/java",
+    "-Xmx2G",
+    "-cp",
+    "../../../../third_party/r8/lib/r8.jar:../../../../third_party/r8/custom_d8.jar",
+    "org.chromium.build.CustomD8",
+    "--min-api",
+    "21",
+    "--desugar-dependencies",
+    "gen/third_party/android_deps/com_google_errorprone_error_prone_annotations_java__dex.desugardeps",
+    "--classpath",
+    "obj/third_party/android_deps/com_google_errorprone_error_prone_annotations.ijar.jar",
+    "--lib",
+    "../../../../third_party/jdk/current",
+    "--lib",
+    "../../../../third_party/android_sdk/public/platforms/android-31/android.jar",
+    "--desugared-lib",
+    "../../../../third_party/r8/desugar_jdk_libs.json",
+    "False"
+  ]
+}

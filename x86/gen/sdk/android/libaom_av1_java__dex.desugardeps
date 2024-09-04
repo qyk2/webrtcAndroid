@@ -1,0 +1,4 @@
+/org/webrtc/LibaomAv1Encoder.class -> obj/sdk/android/video_java.turbine.jar:org/webrtc/WrappedNativeVideoEncoder.class
+/org/webrtc/LibaomAv1Decoder.class -> obj/sdk/android/video_java.turbine.jar:org/webrtc/WrappedNativeVideoDecoder.class
+obj/sdk/android/video_java.turbine.jar:org/webrtc/WrappedNativeVideoDecoder.class -> obj/sdk/android/video_api_java.turbine.jar:org/webrtc/VideoDecoder.class
+obj/sdk/android/video_java.turbine.jar:org/webrtc/WrappedNativeVideoEncoder.class -> obj/sdk/android/video_api_java.turbine.jar:org/webrtc/VideoEncoder.class

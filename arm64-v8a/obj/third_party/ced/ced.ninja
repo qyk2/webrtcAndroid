@@ -1,0 +1,18 @@
+defines = -DCOMPILER_GCC -DHTML5_MODE -D_GNU_SOURCE -DANDROID -DHAVE_SYS_UIO_H -DANDROID_NDK_VERSION_ROLL=r22_1 -DCR_CLANG_REVISION=\"llvmorg-14-init-1002-gb5e470aa-1\" -DNDEBUG -DNVALGRIND -DDYNAMIC_ANNOTATIONS_ENABLED=0
+include_dirs = -I../../../.. -Igen -I../../../../third_party/ced/src
+cflags = -fno-delete-null-pointer-checks -fno-ident -fno-strict-aliasing --param=ssp-buffer-size=4 -fstack-protector -funwind-tables -fPIC -fcolor-diagnostics -fmerge-all-constants -fcrash-diagnostics-dir=../../../../tools/clang/crashreports -mllvm -instcombine-lower-dbg-declare=0 -ffp-contract=off -ffunction-sections -fno-short-enums --rtlib=libgcc --target=aarch64-linux-android21 -mno-outline -Wno-builtin-macro-redefined -D__DATE__= -D__TIME__= -D__TIMESTAMP__= -ffile-compilation-dir=. -no-canonical-prefixes -Oz -fdata-sections -ffunction-sections -fno-unique-section-names -fno-omit-frame-pointer -g1 -fdebug-info-for-profiling -fvisibility=hidden -Xclang -add-plugin -Xclang find-bad-constructs -Xclang -plugin-arg-find-bad-constructs -Xclang raw-ptr-template-as-trivial-member -Xclang -plugin-arg-find-bad-constructs -Xclang check-ipc -Wheader-hygiene -Wstring-conversion -Wtautological-overlap-compare -Werror -Wall -Wno-unused-variable -Wno-c++11-narrowing -Wno-misleading-indentation -Wno-missing-field-initializers -Wno-unused-parameter -Wloop-analysis -Wno-unneeded-internal-declaration -Wenum-compare-conditional -Wno-psabi -Wno-ignored-pragma-optimize -Wno-builtin-assume-aligned-alignment -Wno-deprecated-copy -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-inline-asm -Wmax-tokens -Wno-unused-function
+cflags_cc = -std=c++14 -fno-trigraphs -Wno-trigraphs -fno-exceptions --sysroot=../../../../third_party/android_ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fvisibility-inlines-hidden
+label_name = ced
+root_out_dir = .
+target_out_dir = obj/third_party/ced
+target_output_name = libced
+
+build obj/third_party/ced/ced/compact_enc_det.o: cxx ../../../../third_party/ced/src/compact_enc_det/compact_enc_det.cc
+build obj/third_party/ced/ced/compact_enc_det_hint_code.o: cxx ../../../../third_party/ced/src/compact_enc_det/compact_enc_det_hint_code.cc
+build obj/third_party/ced/ced/encodings.o: cxx ../../../../third_party/ced/src/util/encodings/encodings.cc
+build obj/third_party/ced/ced/languages.o: cxx ../../../../third_party/ced/src/util/languages/languages.cc
+
+build obj/third_party/ced/libced.a: alink obj/third_party/ced/ced/compact_enc_det.o obj/third_party/ced/ced/compact_enc_det_hint_code.o obj/third_party/ced/ced/encodings.o obj/third_party/ced/ced/languages.o
+  arflags = -T
+  output_extension = .a
+  output_dir = obj/third_party/ced

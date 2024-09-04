@@ -1,0 +1,9 @@
+defines = -D_GNU_SOURCE -DANDROID -DHAVE_SYS_UIO_H -DANDROID_NDK_VERSION_ROLL=r22_1 -DCR_CLANG_REVISION=\"llvmorg-14-init-1002-gb5e470aa-1\" -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D_FORTIFY_SOURCE=2 -DNDEBUG -DNVALGRIND -DDYNAMIC_ANNOTATIONS_ENABLED=0 -DFT_CONFIG_MODULES_H=\"freetype-custom/freetype/config/ftmodule.h\" -DFT_CONFIG_OPTIONS_H=\"freetype-custom/freetype/config/ftoption.h\" -DWITHOUT_HARFBUZZ -DCHROMIUM_RESTRICT_VISIBILITY
+include_dirs = -I../../../.. -Igen -I../../../../third_party/freetype/include -I../../../../third_party/freetype/include/freetype-custom -I../../../../third_party/freetype/src/include -I../../../../third_party/harfbuzz-ng/src/src
+label_name = hb_scoped_util
+root_out_dir = .
+target_out_dir = obj/third_party/harfbuzz-ng
+target_output_name = hb_scoped_util
+
+
+build obj/third_party/harfbuzz-ng/hb_scoped_util.stamp: stamp || obj/third_party/freetype_harfbuzz.stamp obj/third_party/freetype/freetype_source.stamp obj/third_party/libpng/libpng_sources.stamp obj/third_party/zlib/libchrome_zlib.a obj/third_party/zlib/zlib_adler32_simd.stamp obj/third_party/zlib/zlib_common_headers.stamp obj/third_party/zlib/zlib_inflate_chunk_simd.stamp obj/third_party/zlib/zlib_arm_crc32.stamp obj/third_party/zlib/zlib_x86_simd.stamp obj/third_party/android_ndk/cpu_features.stamp obj/third_party/harfbuzz-ng/harfbuzz_source.stamp obj/third_party/icu/libicuuc.a

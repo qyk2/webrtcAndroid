@@ -1,0 +1,11 @@
+/org/webrtc/AudioTrack.class -> /org/webrtc/MediaStreamTrack.class
+/org/webrtc/VideoTrack.class -> /org/webrtc/MediaStreamTrack.class
+/org/webrtc/NativeCapturerObserver.class -> obj/sdk/android/video_api_java.turbine.jar:org/webrtc/CapturerObserver.class
+/org/webrtc/AudioSource.class -> /org/webrtc/MediaSource.class
+/org/webrtc/VideoSource.class -> obj/sdk/android/video_api_java.turbine.jar:org/webrtc/VideoSink.class
+/org/webrtc/VideoSource.class -> /org/webrtc/MediaSource.class
+/org/webrtc/NetworkMonitor$1.class -> /org/webrtc/NetworkChangeDetectorFactory.class
+/org/webrtc/NetworkMonitorAutoDetect.class -> /org/webrtc/NetworkChangeDetector.class
+/org/webrtc/NativeLibrary$DefaultLoader.class -> /org/webrtc/NativeLibraryLoader.class
+/org/webrtc/NetworkMonitor$2.class -> /org/webrtc/NetworkChangeDetector$Observer.class
+/org/webrtc/VideoSource$1.class -> obj/sdk/android/video_api_java.turbine.jar:org/webrtc/CapturerObserver.class

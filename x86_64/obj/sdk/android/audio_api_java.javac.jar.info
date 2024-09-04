@@ -1,0 +1,3 @@
+org.webrtc.AudioDecoderFactoryFactory,../../../../sdk/android/api/org/webrtc/AudioDecoderFactoryFactory.java
+org.webrtc.AudioEncoderFactoryFactory,../../../../sdk/android/api/org/webrtc/AudioEncoderFactoryFactory.java
+org.webrtc.audio.AudioDeviceModule,../../../../sdk/android/api/org/webrtc/audio/AudioDeviceModule.java

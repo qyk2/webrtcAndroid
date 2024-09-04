@@ -1,0 +1,288 @@
+{
+  "files-md5": "720a397d0deefa67616d34cccbf66a23",
+  "strings-md5": "298fcf1e52ee75c7ca58d22006ebcbc4",
+  "input-files": [
+    {
+      "path": "../../../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/AndroidNullableCheck.java",
+      "tag": "bff9b967f5779200c410980b122476b8"
+    },
+    {
+      "path": "../../../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/NoAndroidAsyncTaskCheck.java",
+      "tag": "9511a9eb52c33e99133a0927cd824c0d"
+    },
+    {
+      "path": "../../../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/NoDynamicStringsInTraceEventCheck.java",
+      "tag": "d8af64e546c900fcc616b4856ba044c9"
+    },
+    {
+      "path": "../../../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/NoRedundantFieldInitCheck.java",
+      "tag": "ff43eaf7ef2e920eed229daa20fa9a7b"
+    },
+    {
+      "path": "../../../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/NoSynchronizedMethodCheck.java",
+      "tag": "865a730e550e45a67337de8d88fa94bc"
+    },
+    {
+      "path": "../../../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/NoSynchronizedThisCheck.java",
+      "tag": "462cbccb1433212696f1e72134b30ba3"
+    },
+    {
+      "path": "../../../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/TestClassNameCheck.java",
+      "tag": "dc6c876f6815f3e8bb724611d10b3ffb"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/compile_java.py",
+      "tag": "f24830ed4452770237330424d537293d"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/javac_output_processor.py",
+      "tag": "8b57626e24f0f84eb4bd9c8ca447df20"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/__init__.py",
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/build_utils.py",
+      "tag": "d34fc29fcf83df8b0e21275db4c7f835"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/jar_info_utils.py",
+      "tag": "df42af7ddf4fad2b3dcdb434e13462be"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/md5_check.py",
+      "tag": "d316f5db484d36b4f31dadb1d8d516b5"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/server_utils.py",
+      "tag": "d7ec2e74c5af62a850004eef1ce8ad62"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/list_java_targets.py",
+      "tag": "73c3159d016471084df975e117c4d0fb"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/pylib/__init__.py",
+      "tag": "bc0d9c29878ff9eac17ef2cd63e93d46"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/pylib/constants/__init__.py",
+      "tag": "43bce558d034ccf6f15ad6d894b40936"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/gn_helpers.py",
+      "tag": "82ccabe8a44083433a315afa418e3a3e"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/__init__.py",
+      "tag": "2c2baffced354f1c87bbb4188cce1aff"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/__init__.py",
+      "tag": "554cf18947f37d15383f328ef13f893b"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/constants/__init__.py",
+      "tag": "554cf18947f37d15383f328ef13f893b"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/constants/chrome.py",
+      "tag": "2f0b5b14ef207172d8e3b3dda572a43b"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/sdk/__init__.py",
+      "tag": "73a8a79983ebf4da9dd87eaf6a170582"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/sdk/keyevent.py",
+      "tag": "60e96e73367ec8d1a3790106439c12f7"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/sdk/version_codes.py",
+      "tag": "37e3a70cf1ed989a5470886ae52d4b97"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/constants/__init__.py",
+      "tag": "554cf18947f37d15383f328ef13f893b"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/constants/exit_codes.py",
+      "tag": "ce1a1cf17102e8620107307e1c3cccbe"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/__init__.py",
+      "tag": "de647b90a4b99c279f3e4e358ea39b3e"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/ansi.py",
+      "tag": "3ad189643bf1b70eb5be73153569c26c"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/ansitowin32.py",
+      "tag": "9b39fc8f8d1af5b00161ed93f037176b"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/initialise.py",
+      "tag": "91141f9b74377895dae6f33b6de5cca8"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/win32.py",
+      "tag": "e6ef5597c899deefd23e628b209763dd"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/winterm.py",
+      "tag": "9d0c650cd287ccf58d29894feec2178f"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/tools/android/modularization/convenience/lookup_dep.py",
+      "tag": "45942732fa744007ecaae047e9a6f415"
+    },
+    {
+      "path": "gen/tools/android/errorprone_plugin/errorprone_plugin.generated.srcjar",
+      "tag": "9c08003ff7dbb09effd556b4d8e412ad"
+    },
+    {
+      "path": "obj/third_party/android_deps/com_github_ben_manes_caffeine_caffeine.ijar.jar",
+      "tag": "4e06855b53976ae39d95784dcf58c750"
+    },
+    {
+      "path": "obj/third_party/android_deps/com_github_kevinstern_software_and_algorithms.ijar.jar",
+      "tag": "cbe8d28daba392f63d4e5d3e51cc91b0"
+    },
+    {
+      "path": "obj/third_party/android_deps/com_google_auto_auto_common.ijar.jar",
+      "tag": "e8e0e64c5ff7fdfd809680e5ee64c430"
+    },
+    {
+      "path": "obj/third_party/android_deps/com_google_auto_service_auto_service_annotations.ijar.jar",
+      "tag": "b764f9cacc04d0d4ee248576de1068ab"
+    },
+    {
+      "path": "obj/third_party/android_deps/com_google_auto_value_auto_value_annotations.ijar.jar",
+      "tag": "1063cc7ee948288c232dc324dadc63c7"
+    },
+    {
+      "path": "obj/third_party/android_deps/com_google_code_findbugs_jFormatString.ijar.jar",
+      "tag": "5b902282029ea4f5c50a61fdf1d77144"
+    },
+    {
+      "path": "obj/third_party/android_deps/com_google_code_findbugs_jsr305.ijar.jar",
+      "tag": "83c46d13609cec05edf06720e5c594f0"
+    },
+    {
+      "path": "obj/third_party/android_deps/com_google_errorprone_error_prone_annotation.ijar.jar",
+      "tag": "f753cede21577020a262c7e13692e15e"
+    },
+    {
+      "path": "obj/third_party/android_deps/com_google_errorprone_error_prone_annotations.ijar.jar",
+      "tag": "d52a5536581e52b66fce1c599e0455a5"
+    },
+    {
+      "path": "obj/third_party/android_deps/com_google_errorprone_error_prone_check_api.ijar.jar",
+      "tag": "58a77ebc458fbb6d856655119a48a7ea"
+    },
+    {
+      "path": "obj/third_party/android_deps/com_google_errorprone_error_prone_core.ijar.jar",
+      "tag": 1725422993.326042
+    },
+    {
+      "path": "obj/third_party/android_deps/com_google_errorprone_error_prone_type_annotations.ijar.jar",
+      "tag": "72d4064818b89d717808c77368ce6022"
+    },
+    {
+      "path": "obj/third_party/android_deps/com_google_errorprone_javac.ijar.jar",
+      "tag": 1725422992.374031
+    },
+    {
+      "path": "obj/third_party/android_deps/com_google_guava_failureaccess.ijar.jar",
+      "tag": "08652719beea014ce44f860b16cd0b9d"
+    },
+    {
+      "path": "obj/third_party/android_deps/com_google_guava_guava.ijar.jar",
+      "tag": 1725422992.8260362
+    },
+    {
+      "path": "obj/third_party/android_deps/com_google_guava_listenablefuture.ijar.jar",
+      "tag": "b7fb08ac69fb2d39d687da625b6dcdb5"
+    },
+    {
+      "path": "obj/third_party/android_deps/com_google_j2objc_j2objc_annotations.ijar.jar",
+      "tag": "37e8bad0e56fb630e9630b301f94b871"
+    },
+    {
+      "path": "obj/third_party/android_deps/com_google_protobuf_protobuf_java.ijar.jar",
+      "tag": 1725422992.5980337
+    },
+    {
+      "path": "obj/third_party/android_deps/io_github_java_diff_utils_java_diff_utils.ijar.jar",
+      "tag": "16a23353f1cb53ff676c7217a7413344"
+    },
+    {
+      "path": "obj/third_party/android_deps/org_checkerframework_checker_qual.ijar.jar",
+      "tag": "46f9334c1f7778cde0bcba8662ff86b7"
+    },
+    {
+      "path": "obj/third_party/android_deps/org_checkerframework_dataflow_shaded.ijar.jar",
+      "tag": 1725422992.6500342
+    },
+    {
+      "path": "obj/third_party/android_deps/org_eclipse_jgit_org_eclipse_jgit.ijar.jar",
+      "tag": "a5cdbceb16414f38fe152434acdde242"
+    },
+    {
+      "path": "obj/third_party/android_deps/org_pcollections_pcollections.ijar.jar",
+      "tag": "e1fd498be455b24a649682af80287c8e"
+    },
+    {
+      "path": "obj/tools/android/errorprone_plugin/errorprone_plugin.turbine.jar",
+      "tag": "7c7ed61d36df521449baea742ede3787"
+    },
+    {
+      "path": "obj/tools/android/errorprone_plugin/errorprone_plugin.turbine.jar",
+      "tag": "7c7ed61d36df521449baea742ede3787"
+    }
+  ],
+  "input-strings": [
+    "../../../../third_party/jdk/current/bin/javac",
+    "-g",
+    "-encoding",
+    "UTF-8",
+    "-sourcepath",
+    ":",
+    "-proc:none",
+    "obj/tools/android/errorprone_plugin/errorprone_plugin.turbine.jar",
+    "obj/third_party/android_deps/com_google_errorprone_error_prone_core.ijar.jar",
+    "obj/third_party/android_deps/org_pcollections_pcollections.ijar.jar",
+    "obj/third_party/android_deps/com_google_protobuf_protobuf_java.ijar.jar",
+    "obj/third_party/android_deps/com_google_errorprone_error_prone_type_annotations.ijar.jar",
+    "obj/third_party/android_deps/com_google_code_findbugs_jFormatString.ijar.jar",
+    "obj/third_party/android_deps/com_google_auto_auto_common.ijar.jar",
+    "obj/third_party/android_deps/com_google_errorprone_error_prone_check_api.ijar.jar",
+    "obj/third_party/android_deps/org_checkerframework_dataflow_shaded.ijar.jar",
+    "obj/third_party/android_deps/io_github_java_diff_utils_java_diff_utils.ijar.jar",
+    "obj/third_party/android_deps/org_eclipse_jgit_org_eclipse_jgit.ijar.jar",
+    "obj/third_party/android_deps/com_google_errorprone_javac.ijar.jar",
+    "obj/third_party/android_deps/com_google_auto_value_auto_value_annotations.ijar.jar",
+    "obj/third_party/android_deps/com_github_kevinstern_software_and_algorithms.ijar.jar",
+    "obj/third_party/android_deps/com_github_ben_manes_caffeine_caffeine.ijar.jar",
+    "obj/third_party/android_deps/com_google_errorprone_error_prone_annotation.ijar.jar",
+    "obj/third_party/android_deps/com_google_guava_guava.ijar.jar",
+    "obj/third_party/android_deps/org_checkerframework_checker_qual.ijar.jar",
+    "obj/third_party/android_deps/com_google_j2objc_j2objc_annotations.ijar.jar",
+    "obj/third_party/android_deps/com_google_guava_listenablefuture.ijar.jar",
+    "obj/third_party/android_deps/com_google_guava_failureaccess.ijar.jar",
+    "obj/third_party/android_deps/com_google_errorprone_error_prone_annotations.ijar.jar",
+    "obj/third_party/android_deps/com_google_code_findbugs_jsr305.ijar.jar",
+    "obj/third_party/android_deps/com_google_auto_service_auto_service_annotations.ijar.jar",
+    "../../../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/AndroidNullableCheck.java",
+    "../../../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/NoAndroidAsyncTaskCheck.java",
+    "../../../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/NoDynamicStringsInTraceEventCheck.java",
+    "../../../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/NoRedundantFieldInitCheck.java",
+    "../../../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/NoSynchronizedMethodCheck.java",
+    "../../../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/NoSynchronizedThisCheck.java",
+    "../../../../tools/android/errorprone_plugin/src/org/chromium/tools/errorprone/plugin/TestClassNameCheck.java",
+    "True",
+    "[]"
+  ]
+}

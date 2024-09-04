@@ -1,0 +1,28 @@
+defines = -DHAVE_CONFIG_H -D_GNU_SOURCE -DANDROID -DHAVE_SYS_UIO_H -DANDROID_NDK_VERSION_ROLL=r22_1 -DCR_CLANG_REVISION=\"llvmorg-14-init-1002-gb5e470aa-1\" -DNDEBUG -DNVALGRIND -DDYNAMIC_ANNOTATIONS_ENABLED=0
+include_dirs = -I../../../../base/third_party/libevent/android -I../../../.. -Igen
+cflags = -fno-delete-null-pointer-checks -fno-ident -fno-strict-aliasing --param=ssp-buffer-size=4 -fstack-protector -funwind-tables -fPIC -fcolor-diagnostics -fmerge-all-constants -fcrash-diagnostics-dir=../../../../tools/clang/crashreports -mllvm -instcombine-lower-dbg-declare=0 -ffp-contract=off -ffunction-sections -fno-short-enums --target=x86_64-linux-android21 -m64 -march=x86-64 -msse3 -Wno-builtin-macro-redefined -D__DATE__= -D__TIME__= -D__TIMESTAMP__= -ffile-compilation-dir=. -no-canonical-prefixes -fomit-frame-pointer -g1 -fdebug-info-for-profiling -fvisibility=hidden -Xclang -add-plugin -Xclang find-bad-constructs -Xclang -plugin-arg-find-bad-constructs -Xclang raw-ptr-template-as-trivial-member -Xclang -plugin-arg-find-bad-constructs -Xclang check-ipc -Wheader-hygiene -Wstring-conversion -Wtautological-overlap-compare -O2 -fdata-sections -ffunction-sections -fno-unique-section-names -Werror -Wall -Wno-unused-variable -Wno-c++11-narrowing -Wno-misleading-indentation -Wno-missing-field-initializers -Wno-unused-parameter -Wloop-analysis -Wno-unneeded-internal-declaration -Wenum-compare-conditional -Wno-psabi -Wno-ignored-pragma-optimize -Wno-builtin-assume-aligned-alignment -Wno-deprecated-copy -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-inline-asm
+cflags_c = -std=c11 --sysroot=../../../../third_party/android_ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot
+label_name = libevent
+root_out_dir = .
+target_out_dir = obj/base/third_party/libevent
+target_output_name = libevent
+
+build obj/base/third_party/libevent/libevent/buffer.o: cc ../../../../base/third_party/libevent/buffer.c
+build obj/base/third_party/libevent/libevent/evbuffer.o: cc ../../../../base/third_party/libevent/evbuffer.c
+build obj/base/third_party/libevent/libevent/evdns.o: cc ../../../../base/third_party/libevent/evdns.c
+build obj/base/third_party/libevent/libevent/event.o: cc ../../../../base/third_party/libevent/event.c
+build obj/base/third_party/libevent/libevent/event_tagging.o: cc ../../../../base/third_party/libevent/event_tagging.c
+build obj/base/third_party/libevent/libevent/evrpc.o: cc ../../../../base/third_party/libevent/evrpc.c
+build obj/base/third_party/libevent/libevent/evutil.o: cc ../../../../base/third_party/libevent/evutil.c
+build obj/base/third_party/libevent/libevent/http.o: cc ../../../../base/third_party/libevent/http.c
+build obj/base/third_party/libevent/libevent/log.o: cc ../../../../base/third_party/libevent/log.c
+build obj/base/third_party/libevent/libevent/poll.o: cc ../../../../base/third_party/libevent/poll.c
+build obj/base/third_party/libevent/libevent/select.o: cc ../../../../base/third_party/libevent/select.c
+build obj/base/third_party/libevent/libevent/signal.o: cc ../../../../base/third_party/libevent/signal.c
+build obj/base/third_party/libevent/libevent/strlcpy.o: cc ../../../../base/third_party/libevent/strlcpy.c
+build obj/base/third_party/libevent/libevent/epoll.o: cc ../../../../base/third_party/libevent/epoll.c
+
+build obj/base/third_party/libevent/libevent.a: alink obj/base/third_party/libevent/libevent/buffer.o obj/base/third_party/libevent/libevent/evbuffer.o obj/base/third_party/libevent/libevent/evdns.o obj/base/third_party/libevent/libevent/event.o obj/base/third_party/libevent/libevent/event_tagging.o obj/base/third_party/libevent/libevent/evrpc.o obj/base/third_party/libevent/libevent/evutil.o obj/base/third_party/libevent/libevent/http.o obj/base/third_party/libevent/libevent/log.o obj/base/third_party/libevent/libevent/poll.o obj/base/third_party/libevent/libevent/select.o obj/base/third_party/libevent/libevent/signal.o obj/base/third_party/libevent/libevent/strlcpy.o obj/base/third_party/libevent/libevent/epoll.o
+  arflags = -T
+  output_extension = .a
+  output_dir = obj/base/third_party/libevent

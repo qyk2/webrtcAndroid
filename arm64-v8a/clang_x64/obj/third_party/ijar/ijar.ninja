@@ -1,0 +1,22 @@
+defines = -DUSE_UDEV -DUSE_AURA=1 -DUSE_GLIB=1 -DUSE_NSS_CERTS=1 -DUSE_OZONE=1 -DUSE_X11=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -DCR_CLANG_REVISION=\"llvmorg-14-init-1002-gb5e470aa-1\" -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D_FORTIFY_SOURCE=2 -DCR_SYSROOT_HASH=43a87bbebccad99325fdcf34166295b121ee15c7 -DNDEBUG -DNVALGRIND -DDYNAMIC_ANNOTATIONS_ENABLED=0
+include_dirs = -I../../../.. -Iclang_x64/gen -I../../../../third_party/zlib
+cflags = -fno-delete-null-pointer-checks -fno-ident -fno-strict-aliasing --param=ssp-buffer-size=4 -fstack-protector -funwind-tables -fPIC -pthread -fcolor-diagnostics -fmerge-all-constants -fcrash-diagnostics-dir=../../../../tools/clang/crashreports -mllvm -instcombine-lower-dbg-declare=0 -ffp-contract=off -m64 -march=x86-64 -msse3 -Wno-builtin-macro-redefined -D__DATE__= -D__TIME__= -D__TIMESTAMP__= -ffile-compilation-dir=. -no-canonical-prefixes -Wall -Werror -Wextra -Wimplicit-fallthrough -Wunreachable-code -Wthread-safety -Wextra-semi -Wno-missing-field-initializers -Wno-unused-parameter -Wloop-analysis -Wno-unneeded-internal-declaration -Wenum-compare-conditional -Wno-psabi -Wno-ignored-pragma-optimize -Wno-builtin-assume-aligned-alignment -Wno-deprecated-copy -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-inline-asm -O2 -fdata-sections -ffunction-sections -fno-unique-section-names -fno-omit-frame-pointer -g0 -ftrivial-auto-var-init=pattern -fvisibility=hidden -Xclang -add-plugin -Xclang find-bad-constructs -Xclang -plugin-arg-find-bad-constructs -Xclang raw-ptr-template-as-trivial-member -Xclang -plugin-arg-find-bad-constructs -Xclang check-ipc -Wheader-hygiene -Wstring-conversion -Wtautological-overlap-compare
+cflags_cc = -std=c++14 -fno-trigraphs -Wno-trigraphs -fno-exceptions --sysroot=../../../../build/linux/debian_sid_amd64-sysroot -fvisibility-inlines-hidden
+label_name = ijar
+target_out_dir = clang_x64/obj/third_party/ijar
+target_output_name = ijar
+
+build clang_x64/obj/third_party/ijar/ijar/classfile.o: clang_x64_cxx ../../../../third_party/ijar/classfile.cc
+build clang_x64/obj/third_party/ijar/ijar/ijar.o: clang_x64_cxx ../../../../third_party/ijar/ijar.cc
+build clang_x64/obj/third_party/ijar/ijar/mapped_file_unix.o: clang_x64_cxx ../../../../third_party/ijar/mapped_file_unix.cc
+build clang_x64/obj/third_party/ijar/ijar/platform_utils.o: clang_x64_cxx ../../../../third_party/ijar/platform_utils.cc
+build clang_x64/obj/third_party/ijar/ijar/zip.o: clang_x64_cxx ../../../../third_party/ijar/zip.cc
+build clang_x64/obj/third_party/ijar/ijar/zlib_client.o: clang_x64_cxx ../../../../third_party/ijar/zlib_client.cc
+
+build clang_x64/ijar: clang_x64_link clang_x64/obj/third_party/ijar/ijar/classfile.o clang_x64/obj/third_party/ijar/ijar/ijar.o clang_x64/obj/third_party/ijar/ijar/mapped_file_unix.o clang_x64/obj/third_party/ijar/ijar/platform_utils.o clang_x64/obj/third_party/ijar/ijar/zip.o clang_x64/obj/third_party/ijar/ijar/zlib_client.o clang_x64/obj/third_party/zlib/zlib_adler32_simd/adler32_simd.o clang_x64/obj/third_party/zlib/zlib_inflate_chunk_simd/inffast_chunk.o clang_x64/obj/third_party/zlib/zlib_inflate_chunk_simd/inflate.o clang_x64/obj/third_party/zlib/zlib_crc32_simd/crc32_simd.o clang_x64/obj/third_party/zlib/zlib_x86_simd/crc_folding.o clang_x64/obj/third_party/zlib/zlib_x86_simd/fill_window_sse.o clang_x64/obj/third_party/zlib/libchrome_zlib.a || clang_x64/obj/build/config/executable_deps.stamp clang_x64/obj/third_party/zlib/zlib_adler32_simd.stamp clang_x64/obj/third_party/zlib/zlib_common_headers.stamp clang_x64/obj/third_party/zlib/zlib_inflate_chunk_simd.stamp clang_x64/obj/third_party/zlib/zlib_crc32_simd.stamp clang_x64/obj/third_party/zlib/zlib_x86_simd.stamp
+  ldflags = -fuse-ld=lld -Wl,--fatal-warnings -Wl,--build-id -fPIC -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--icf=all -Wl,--color-diagnostics -Wl,--no-call-graph-profile-sort -m64 -Werror -Wl,-O2 -Wl,--gc-sections -rdynamic --sysroot=../../../../build/linux/debian_sid_amd64-sysroot -Wl,-z,defs -Wl,--as-needed -pie -Wl,--disable-new-dtags
+  libs = -latomic -ldl -lpthread -lrt
+  frameworks =
+  swiftmodules =
+  output_extension = 
+  output_dir = clang_x64

@@ -1,0 +1,192 @@
+{
+  "files-md5": "65c94e07321ad6deac99263aafee0ebb",
+  "strings-md5": "f42e8ee9107c2094ffcaabeacf49c50d",
+  "input-files": [
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/FileVideoCapturer.java",
+      "tag": "dcbf4f4288f8ffef02d60366e0180a40"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/VideoFileRenderer.java",
+      "tag": "3547e4a65d67fbd8634188542b7d3516"
+    },
+    {
+      "path": "../../../../third_party/jdk/extras/java_8/jre/lib/rt.jar",
+      "tag": 1724920343.227469
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/compile_java.py",
+      "tag": "f24830ed4452770237330424d537293d"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/javac_output_processor.py",
+      "tag": "8b57626e24f0f84eb4bd9c8ca447df20"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/__init__.py",
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/build_utils.py",
+      "tag": "d34fc29fcf83df8b0e21275db4c7f835"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/jar_info_utils.py",
+      "tag": "df42af7ddf4fad2b3dcdb434e13462be"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/md5_check.py",
+      "tag": "d316f5db484d36b4f31dadb1d8d516b5"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/server_utils.py",
+      "tag": "d7ec2e74c5af62a850004eef1ce8ad62"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/list_java_targets.py",
+      "tag": "73c3159d016471084df975e117c4d0fb"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/pylib/__init__.py",
+      "tag": "bc0d9c29878ff9eac17ef2cd63e93d46"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/pylib/constants/__init__.py",
+      "tag": "43bce558d034ccf6f15ad6d894b40936"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/gn_helpers.py",
+      "tag": "82ccabe8a44083433a315afa418e3a3e"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/__init__.py",
+      "tag": "2c2baffced354f1c87bbb4188cce1aff"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/__init__.py",
+      "tag": "554cf18947f37d15383f328ef13f893b"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/constants/__init__.py",
+      "tag": "554cf18947f37d15383f328ef13f893b"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/constants/chrome.py",
+      "tag": "2f0b5b14ef207172d8e3b3dda572a43b"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/sdk/__init__.py",
+      "tag": "73a8a79983ebf4da9dd87eaf6a170582"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/sdk/keyevent.py",
+      "tag": "60e96e73367ec8d1a3790106439c12f7"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/sdk/version_codes.py",
+      "tag": "37e3a70cf1ed989a5470886ae52d4b97"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/constants/__init__.py",
+      "tag": "554cf18947f37d15383f328ef13f893b"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/constants/exit_codes.py",
+      "tag": "ce1a1cf17102e8620107307e1c3cccbe"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/__init__.py",
+      "tag": "de647b90a4b99c279f3e4e358ea39b3e"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/ansi.py",
+      "tag": "3ad189643bf1b70eb5be73153569c26c"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/ansitowin32.py",
+      "tag": "9b39fc8f8d1af5b00161ed93f037176b"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/initialise.py",
+      "tag": "91141f9b74377895dae6f33b6de5cca8"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/win32.py",
+      "tag": "e6ef5597c899deefd23e628b209763dd"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/winterm.py",
+      "tag": "9d0c650cd287ccf58d29894feec2178f"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/tools/android/modularization/convenience/lookup_dep.py",
+      "tag": "45942732fa744007ecaae047e9a6f415"
+    },
+    {
+      "path": "gen/sdk/android/filevideo_java.generated.srcjar",
+      "tag": "9c08003ff7dbb09effd556b4d8e412ad"
+    },
+    {
+      "path": "obj/rtc_base/base_java.turbine.jar",
+      "tag": "c5076850d6963deeec828a6c16a3def5"
+    },
+    {
+      "path": "obj/sdk/android/base_java.turbine.jar",
+      "tag": "b3055e6beed28498f20d924572f59053"
+    },
+    {
+      "path": "obj/sdk/android/filevideo_java.turbine.jar",
+      "tag": "ebbcc75c048590a4060ab3a3201885fb"
+    },
+    {
+      "path": "obj/sdk/android/filevideo_java.turbine.jar",
+      "tag": "ebbcc75c048590a4060ab3a3201885fb"
+    },
+    {
+      "path": "obj/sdk/android/video_api_java.turbine.jar",
+      "tag": "4a92f7f856909bbdfa4e58af936bd968"
+    },
+    {
+      "path": "obj/sdk/android/video_java.turbine.jar",
+      "tag": "3c154791b2a9c01945bbf49bfc660f8b"
+    },
+    {
+      "path": "obj/third_party/android_deps/com_android_support_support_annotations.ijar.jar",
+      "tag": "d0e31288437b0472074740d9b3441da4"
+    },
+    {
+      "path": "obj/third_party/android_sdk/android.ijar.jar",
+      "tag": 1725424279.6728165
+    },
+    {
+      "path": "obj/third_party/androidx/androidx_annotation_annotation.ijar.jar",
+      "tag": "cc46c2b223f3203a4259e5efb5bbba27"
+    }
+  ],
+  "input-strings": [
+    "../../../../third_party/jdk/current/bin/javac",
+    "-g",
+    "-encoding",
+    "UTF-8",
+    "-sourcepath",
+    ":",
+    "-source",
+    "1.8",
+    "-target",
+    "1.8",
+    "-proc:none",
+    "-bootclasspath",
+    "obj/third_party/android_sdk/android.ijar.jar:../../../../third_party/jdk/extras/java_8/jre/lib/rt.jar",
+    "obj/sdk/android/filevideo_java.turbine.jar",
+    "obj/sdk/android/video_java.turbine.jar",
+    "obj/sdk/android/video_api_java.turbine.jar",
+    "obj/third_party/androidx/androidx_annotation_annotation.ijar.jar",
+    "obj/rtc_base/base_java.turbine.jar",
+    "obj/sdk/android/base_java.turbine.jar",
+    "obj/third_party/android_deps/com_android_support_support_annotations.ijar.jar",
+    "../../../../sdk/android/api/org/webrtc/FileVideoCapturer.java",
+    "../../../../sdk/android/api/org/webrtc/VideoFileRenderer.java",
+    "True",
+    "['*/R.class', '*/R$*.class', '*/Manifest.class', '*/Manifest$*.class', '*/GEN_JNI.class']"
+  ]
+}

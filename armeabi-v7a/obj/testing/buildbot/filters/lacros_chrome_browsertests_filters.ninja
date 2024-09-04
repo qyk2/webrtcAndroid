@@ -1,0 +1,9 @@
+defines = -D_GNU_SOURCE -DANDROID -DHAVE_SYS_UIO_H -DANDROID_NDK_VERSION_ROLL=r22_1 -DCR_CLANG_REVISION=\"llvmorg-14-init-1002-gb5e470aa-1\" -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D_FORTIFY_SOURCE=2 -DNDEBUG -DNVALGRIND -DDYNAMIC_ANNOTATIONS_ENABLED=0
+include_dirs = -I../../../.. -Igen
+label_name = lacros_chrome_browsertests_filters
+root_out_dir = .
+target_out_dir = obj/testing/buildbot/filters
+target_output_name = lacros_chrome_browsertests_filters
+
+
+build obj/testing/buildbot/filters/lacros_chrome_browsertests_filters.stamp: stamp

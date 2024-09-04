@@ -1,0 +1,24 @@
+lib.java/sdk/android/libwebrtc.jar: \
+ obj/modules/audio_device/audio_device_java.javac.jar \
+ obj/rtc_base/base_java.javac.jar \
+ obj/sdk/android/audio_api_java.javac.jar \
+ obj/sdk/android/base_java.javac.jar \
+ obj/sdk/android/builtin_audio_codecs_java.javac.jar \
+ obj/sdk/android/camera_java.javac.jar \
+ obj/sdk/android/default_video_codec_factory_java.javac.jar \
+ obj/sdk/android/filevideo_java.javac.jar \
+ obj/sdk/android/hwcodecs_java.javac.jar \
+ obj/sdk/android/java_audio_device_module_java.javac.jar \
+ obj/sdk/android/libH264_java.javac.jar \
+ obj/sdk/android/libaom_av1_java.javac.jar \
+ obj/sdk/android/libjingle_peerconnection_java.javac.jar \
+ obj/sdk/android/libjingle_peerconnection_metrics_default_java.javac.jar \
+ obj/sdk/android/libvpx_vp8_java.javac.jar \
+ obj/sdk/android/libvpx_vp9_java.javac.jar \
+ obj/sdk/android/logging_java.javac.jar \
+ obj/sdk/android/peerconnection_java.javac.jar \
+ obj/sdk/android/screencapturer_java.javac.jar \
+ obj/sdk/android/surfaceviewrenderer_java.javac.jar \
+ obj/sdk/android/swcodecs_java.javac.jar \
+ obj/sdk/android/video_api_java.javac.jar \
+ obj/sdk/android/video_java.javac.jar

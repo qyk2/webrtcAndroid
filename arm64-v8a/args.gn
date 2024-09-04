@@ -1,0 +1,15 @@
+use_goma = false
+target_cpu = "arm64"
+is_component_build = false
+is_debug = false
+rtc_include_tests = false
+target_os = "android"
+is_debug = false
+is_component_build = false
+is_clang = true
+rtc_include_tests = false
+rtc_use_h264 = true
+ffmpeg_branding = "Chrome"
+rtc_enable_protobuf = false
+use_rtti = true
+use_custom_libcxx = false

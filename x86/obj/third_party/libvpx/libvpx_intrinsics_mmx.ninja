@@ -1,0 +1,13 @@
+defines = -D_GNU_SOURCE -DANDROID -DHAVE_SYS_UIO_H -DANDROID_NDK_VERSION_ROLL=r22_1 -DCR_CLANG_REVISION=\"llvmorg-14-init-1002-gb5e470aa-1\" -DNDEBUG -DNVALGRIND -DDYNAMIC_ANNOTATIONS_ENABLED=0
+include_dirs = -I../../../.. -Igen -I../../../../third_party/libvpx/source/config -I../../../../third_party/libvpx/source/config/linux/ia32 -I../../../../third_party/libvpx/source/libvpx
+cflags = -mmmx -fno-delete-null-pointer-checks -fno-ident -fno-strict-aliasing --param=ssp-buffer-size=4 -fno-stack-protector -funwind-tables -fPIC -fcolor-diagnostics -fmerge-all-constants -fcrash-diagnostics-dir=../../../../tools/clang/crashreports -mllvm -instcombine-lower-dbg-declare=0 -ffp-contract=off -ffunction-sections -fno-short-enums --target=i686-linux-android16 -m32 -mfpmath=sse -msse3 -Wno-builtin-macro-redefined -D__DATE__= -D__TIME__= -D__TIMESTAMP__= -ffile-compilation-dir=. -no-canonical-prefixes -Oz -fdata-sections -ffunction-sections -fno-unique-section-names -fno-omit-frame-pointer -momit-leaf-frame-pointer -g1 -fdebug-info-for-profiling -fvisibility=hidden -Xclang -add-plugin -Xclang find-bad-constructs -Xclang -plugin-arg-find-bad-constructs -Xclang raw-ptr-template-as-trivial-member -Xclang -plugin-arg-find-bad-constructs -Xclang check-ipc -Wheader-hygiene -Wstring-conversion -Wtautological-overlap-compare -Werror -Wall -Wno-unused-variable -Wno-c++11-narrowing -Wno-misleading-indentation -Wno-missing-field-initializers -Wno-unused-parameter -Wloop-analysis -Wno-unneeded-internal-declaration -Wenum-compare-conditional -Wno-psabi -Wno-ignored-pragma-optimize -Wno-builtin-assume-aligned-alignment -Wno-deprecated-copy -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-inline-asm -Wno-conversion -Wno-parentheses-equality -Wno-unused-function
+cflags_c = -std=c11 --sysroot=../../../../third_party/android_ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot
+label_name = libvpx_intrinsics_mmx
+root_out_dir = .
+target_out_dir = obj/third_party/libvpx
+target_output_name = libvpx_intrinsics_mmx
+
+build obj/third_party/libvpx/libvpx_intrinsics_mmx/idct_blk_mmx.o: cc ../../../../third_party/libvpx/source/libvpx/vp8/common/x86/idct_blk_mmx.c
+build obj/third_party/libvpx/libvpx_intrinsics_mmx/emms_mmx.o: cc ../../../../third_party/libvpx/source/libvpx/vpx_ports/emms_mmx.c
+
+build obj/third_party/libvpx/libvpx_intrinsics_mmx.stamp: stamp obj/third_party/libvpx/libvpx_intrinsics_mmx/idct_blk_mmx.o obj/third_party/libvpx/libvpx_intrinsics_mmx/emms_mmx.o || obj/third_party/libvpx/libvpx_x86_headers.stamp

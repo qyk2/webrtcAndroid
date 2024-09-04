@@ -1,0 +1,16 @@
+defines = -D_GNU_SOURCE -DANDROID -DHAVE_SYS_UIO_H -DANDROID_NDK_VERSION_ROLL=r22_1 -DCR_CLANG_REVISION=\"llvmorg-14-init-1002-gb5e470aa-1\" -DNDEBUG -DNVALGRIND -DDYNAMIC_ANNOTATIONS_ENABLED=0 -DOPUS_BUILD -DOPUS_EXPORT= -DENABLE_HARDENING -DUSE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LRINT -DHAVE_LRINTF -DOPUS_HAVE_RTCD -DCPU_INFO_BY_ASM -DOPUS_X86_MAY_HAVE_SSE -DOPUS_X86_MAY_HAVE_SSE2 -DOPUS_X86_PRESUME_SSE -DOPUS_X86_PRESUME_SSE2 -DOPUS_X86_MAY_HAVE_SSE4_1 -DOPUS_X86_MAY_HAVE_AVX
+include_dirs = -I../../../.. -Igen -I../../../../third_party/opus/src -I../../../../third_party/opus/src/celt -I../../../../third_party/opus/src/silk -I../../../../third_party/opus/src/silk/float -I../../../../third_party/opus/src/include
+cflags = -msse4.1 -fno-delete-null-pointer-checks -fno-ident -fno-strict-aliasing --param=ssp-buffer-size=4 -fstack-protector -funwind-tables -fPIC -fcolor-diagnostics -fmerge-all-constants -fcrash-diagnostics-dir=../../../../tools/clang/crashreports -mllvm -instcombine-lower-dbg-declare=0 -ffp-contract=off -ffunction-sections -fno-short-enums --target=x86_64-linux-android21 -m64 -march=x86-64 -msse3 -Wno-builtin-macro-redefined -D__DATE__= -D__TIME__= -D__TIMESTAMP__= -ffile-compilation-dir=. -no-canonical-prefixes -Oz -fdata-sections -ffunction-sections -fno-unique-section-names -fomit-frame-pointer -g1 -fdebug-info-for-profiling -fvisibility=hidden -Xclang -add-plugin -Xclang find-bad-constructs -Xclang -plugin-arg-find-bad-constructs -Xclang raw-ptr-template-as-trivial-member -Xclang -plugin-arg-find-bad-constructs -Xclang check-ipc -Wheader-hygiene -Wstring-conversion -Wtautological-overlap-compare -Werror -Wall -Wno-unused-variable -Wno-c++11-narrowing -Wno-misleading-indentation -Wno-missing-field-initializers -Wno-unused-parameter -Wloop-analysis -Wno-unneeded-internal-declaration -Wenum-compare-conditional -Wno-psabi -Wno-ignored-pragma-optimize -Wno-builtin-assume-aligned-alignment -Wno-deprecated-copy -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-inline-asm
+cflags_c = -std=c11 --sysroot=../../../../third_party/android_ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot
+label_name = opus_sse41
+root_out_dir = .
+target_out_dir = obj/third_party/opus
+target_output_name = opus_sse41
+
+build obj/third_party/opus/opus_sse41/pitch_sse4_1.o: cc ../../../../third_party/opus/src/celt/x86/pitch_sse4_1.c
+build obj/third_party/opus/opus_sse41/NSQ_del_dec_sse4_1.o: cc ../../../../third_party/opus/src/silk/x86/NSQ_del_dec_sse4_1.c
+build obj/third_party/opus/opus_sse41/NSQ_sse4_1.o: cc ../../../../third_party/opus/src/silk/x86/NSQ_sse4_1.c
+build obj/third_party/opus/opus_sse41/VAD_sse4_1.o: cc ../../../../third_party/opus/src/silk/x86/VAD_sse4_1.c
+build obj/third_party/opus/opus_sse41/VQ_WMat_EC_sse4_1.o: cc ../../../../third_party/opus/src/silk/x86/VQ_WMat_EC_sse4_1.c
+
+build obj/third_party/opus/opus_sse41.stamp: stamp obj/third_party/opus/opus_sse41/pitch_sse4_1.o obj/third_party/opus/opus_sse41/NSQ_del_dec_sse4_1.o obj/third_party/opus/opus_sse41/NSQ_sse4_1.o obj/third_party/opus/opus_sse41/VAD_sse4_1.o obj/third_party/opus/opus_sse41/VQ_WMat_EC_sse4_1.o

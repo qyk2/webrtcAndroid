@@ -1,0 +1,1 @@
+../../../../sdk/android/api/org/webrtc/FileVideoCapturer.java ../../../../sdk/android/api/org/webrtc/VideoFileRenderer.java

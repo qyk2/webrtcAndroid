@@ -1,0 +1,9 @@
+defines = -D_GNU_SOURCE -DANDROID -DHAVE_SYS_UIO_H -DANDROID_NDK_VERSION_ROLL=r22_1 -DCR_CLANG_REVISION=\"llvmorg-14-init-1002-gb5e470aa-1\" -DNDEBUG -DNVALGRIND -DDYNAMIC_ANNOTATIONS_ENABLED=0
+include_dirs = -I../../../.. -Igen -I../../../../third_party/libvpx/source/config -I../../../../third_party/libvpx/source/config/linux/x64 -I../../../../third_party/libvpx/source/libvpx
+label_name = libvpx_intrinsics_avx512
+root_out_dir = .
+target_out_dir = obj/third_party/libvpx
+target_output_name = libvpx_intrinsics_avx512
+
+
+build obj/third_party/libvpx/libvpx_intrinsics_avx512.stamp: stamp || obj/third_party/libvpx/libvpx_x86_64_headers.stamp

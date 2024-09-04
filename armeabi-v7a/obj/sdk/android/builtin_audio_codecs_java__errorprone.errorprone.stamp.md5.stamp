@@ -1,0 +1,284 @@
+{
+  "files-md5": "84e9561aca17cde678f59b982159a497",
+  "strings-md5": "8cf9fa64b6fe6121a110a405f7b485ad",
+  "input-files": [
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/BuiltinAudioDecoderFactoryFactory.java",
+      "tag": "f38afe701f8db0adb29173467b6dc20f"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/BuiltinAudioEncoderFactoryFactory.java",
+      "tag": "1ea34ba599107b674b8cd93fa17c8b3a"
+    },
+    {
+      "path": "../../../../third_party/jdk/extras/java_8/jre/lib/rt.jar",
+      "tag": 1724920343.227469
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/compile_java.py",
+      "tag": "f24830ed4452770237330424d537293d"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/javac_output_processor.py",
+      "tag": "8b57626e24f0f84eb4bd9c8ca447df20"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/__init__.py",
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/build_utils.py",
+      "tag": "d34fc29fcf83df8b0e21275db4c7f835"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/jar_info_utils.py",
+      "tag": "df42af7ddf4fad2b3dcdb434e13462be"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/md5_check.py",
+      "tag": "d316f5db484d36b4f31dadb1d8d516b5"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/server_utils.py",
+      "tag": "d7ec2e74c5af62a850004eef1ce8ad62"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/list_java_targets.py",
+      "tag": "73c3159d016471084df975e117c4d0fb"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/pylib/__init__.py",
+      "tag": "bc0d9c29878ff9eac17ef2cd63e93d46"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/pylib/constants/__init__.py",
+      "tag": "43bce558d034ccf6f15ad6d894b40936"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/gn_helpers.py",
+      "tag": "82ccabe8a44083433a315afa418e3a3e"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/__init__.py",
+      "tag": "2c2baffced354f1c87bbb4188cce1aff"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/__init__.py",
+      "tag": "554cf18947f37d15383f328ef13f893b"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/constants/__init__.py",
+      "tag": "554cf18947f37d15383f328ef13f893b"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/constants/chrome.py",
+      "tag": "2f0b5b14ef207172d8e3b3dda572a43b"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/sdk/__init__.py",
+      "tag": "73a8a79983ebf4da9dd87eaf6a170582"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/sdk/keyevent.py",
+      "tag": "60e96e73367ec8d1a3790106439c12f7"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/sdk/version_codes.py",
+      "tag": "37e3a70cf1ed989a5470886ae52d4b97"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/constants/__init__.py",
+      "tag": "554cf18947f37d15383f328ef13f893b"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/constants/exit_codes.py",
+      "tag": "ce1a1cf17102e8620107307e1c3cccbe"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/__init__.py",
+      "tag": "de647b90a4b99c279f3e4e358ea39b3e"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/ansi.py",
+      "tag": "3ad189643bf1b70eb5be73153569c26c"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/ansitowin32.py",
+      "tag": "9b39fc8f8d1af5b00161ed93f037176b"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/initialise.py",
+      "tag": "91141f9b74377895dae6f33b6de5cca8"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/win32.py",
+      "tag": "e6ef5597c899deefd23e628b209763dd"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/winterm.py",
+      "tag": "9d0c650cd287ccf58d29894feec2178f"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/tools/android/modularization/convenience/lookup_dep.py",
+      "tag": "45942732fa744007ecaae047e9a6f415"
+    },
+    {
+      "path": "gen/sdk/android/builtin_audio_codecs_java.generated.srcjar",
+      "tag": "9c08003ff7dbb09effd556b4d8e412ad"
+    },
+    {
+      "path": "lib.java/third_party/android_deps/com_github_ben_manes_caffeine_caffeine.jar",
+      "tag": "ddac1f8f76743255084022ac6f06b7cf"
+    },
+    {
+      "path": "lib.java/third_party/android_deps/com_github_kevinstern_software_and_algorithms.jar",
+      "tag": "fbc6311fa6912f46ffe4bdb23b39604c"
+    },
+    {
+      "path": "lib.java/third_party/android_deps/com_google_auto_auto_common.jar",
+      "tag": "1d531d399cde06e9ab49b7d84e7603dc"
+    },
+    {
+      "path": "lib.java/third_party/android_deps/com_google_auto_service_auto_service_annotations.jar",
+      "tag": "09521774af3bde8e3f39cc6bd8dec2dd"
+    },
+    {
+      "path": "lib.java/third_party/android_deps/com_google_auto_value_auto_value_annotations.jar",
+      "tag": "c4b705920e4044484c73f632cb1de868"
+    },
+    {
+      "path": "lib.java/third_party/android_deps/com_google_code_findbugs_jFormatString.jar",
+      "tag": "22a6baee6cada23d5f4eab91acd81f44"
+    },
+    {
+      "path": "lib.java/third_party/android_deps/com_google_code_findbugs_jsr305.jar",
+      "tag": "dd83accb899363c32b07d7a1b2e4ce40"
+    },
+    {
+      "path": "lib.java/third_party/android_deps/com_google_errorprone_error_prone_annotation.jar",
+      "tag": "d95a37308975fb6c77018810717d5144"
+    },
+    {
+      "path": "lib.java/third_party/android_deps/com_google_errorprone_error_prone_annotations.jar",
+      "tag": "5260e1257140bed1936991931cff5ed8"
+    },
+    {
+      "path": "lib.java/third_party/android_deps/com_google_errorprone_error_prone_check_api.jar",
+      "tag": "064708143767bcb88a083e1a604c08ef"
+    },
+    {
+      "path": "lib.java/third_party/android_deps/com_google_errorprone_error_prone_core.jar",
+      "tag": 1725422446.9358008
+    },
+    {
+      "path": "lib.java/third_party/android_deps/com_google_errorprone_error_prone_type_annotations.jar",
+      "tag": "e40e8fa1deffc5bffebb35f3846ddc26"
+    },
+    {
+      "path": "lib.java/third_party/android_deps/com_google_errorprone_javac.jar",
+      "tag": 1725422303.9181356
+    },
+    {
+      "path": "lib.java/third_party/android_deps/com_google_guava_failureaccess.jar",
+      "tag": "091883993ef5bfa91da01dcc8fc52236"
+    },
+    {
+      "path": "lib.java/third_party/android_deps/com_google_guava_guava.jar",
+      "tag": 1725422445.17978
+    },
+    {
+      "path": "lib.java/third_party/android_deps/com_google_guava_listenablefuture.jar",
+      "tag": "2178c2b8a4772361ebd09348c60381f4"
+    },
+    {
+      "path": "lib.java/third_party/android_deps/com_google_j2objc_j2objc_annotations.jar",
+      "tag": "5fa4ec4ec0c5aa70af8a7d4922df1931"
+    },
+    {
+      "path": "lib.java/third_party/android_deps/com_google_protobuf_protobuf_java.jar",
+      "tag": 1725422304.214139
+    },
+    {
+      "path": "lib.java/third_party/android_deps/io_github_java_diff_utils_java_diff_utils.jar",
+      "tag": "e41007092acfe09867770f327edaa07a"
+    },
+    {
+      "path": "lib.java/third_party/android_deps/org_checkerframework_checker_qual.jar",
+      "tag": "b9822b33f72326c74abded69b7c717cc"
+    },
+    {
+      "path": "lib.java/third_party/android_deps/org_checkerframework_dataflow_shaded.jar",
+      "tag": "bb3f2a362e6e69f21ec91f90742b2dda"
+    },
+    {
+      "path": "lib.java/third_party/android_deps/org_eclipse_jgit_org_eclipse_jgit.jar",
+      "tag": 1725422304.6461442
+    },
+    {
+      "path": "lib.java/third_party/android_deps/org_pcollections_pcollections.jar",
+      "tag": "977aa710304b0448c0561926723bfdcf"
+    },
+    {
+      "path": "lib.java/tools/android/errorprone_plugin/errorprone_plugin.jar",
+      "tag": "01db92306bb476d9ef9fb0750123ac69"
+    },
+    {
+      "path": "obj/rtc_base/base_java.turbine.jar",
+      "tag": "c5076850d6963deeec828a6c16a3def5"
+    },
+    {
+      "path": "obj/sdk/android/audio_api_java.turbine.jar",
+      "tag": "7017bd541868325cc13ac5399d32df61"
+    },
+    {
+      "path": "obj/sdk/android/base_java.turbine.jar",
+      "tag": "b3055e6beed28498f20d924572f59053"
+    },
+    {
+      "path": "obj/sdk/android/builtin_audio_codecs_java.turbine.jar",
+      "tag": "9596069c4f408d524f0f7e7bd05d5d64"
+    },
+    {
+      "path": "obj/sdk/android/builtin_audio_codecs_java.turbine.jar",
+      "tag": "9596069c4f408d524f0f7e7bd05d5d64"
+    },
+    {
+      "path": "obj/third_party/android_deps/com_android_support_support_annotations.ijar.jar",
+      "tag": "d0e31288437b0472074740d9b3441da4"
+    },
+    {
+      "path": "obj/third_party/android_sdk/android.ijar.jar",
+      "tag": 1725422386.6670935
+    }
+  ],
+  "input-strings": [
+    "../../../../third_party/jdk/current/bin/javac",
+    "-g",
+    "-encoding",
+    "UTF-8",
+    "-sourcepath",
+    ":",
+    "-XDcompilePolicy=simple",
+    "-Xplugin:ErrorProne -XepAllErrorsAsWarnings -XepDisableWarningsInGeneratedCode -Xep:InvalidParam:OFF -Xep:InvalidLink:OFF -Xep:InvalidInlineTag:OFF -Xep:EmptyBlockTag:OFF -Xep:PublicConstructorForAbstractClass:OFF -Xep:InvalidBlockTag:OFF -Xep:StaticAssignmentInConstructor:OFF -Xep:MutablePublicArray:OFF -Xep:UnescapedEntity:OFF -Xep:NonCanonicalType:OFF -Xep:AlmostJavadoc:OFF -Xep:InlineMeSuggester:OFF -Xep:DoNotClaimAnnotations:OFF -Xep:JavaUtilDate:OFF -Xep:IdentityHashMapUsage:OFF -Xep:UnnecessaryMethodReference:OFF -Xep:LongFloatConversion:OFF -Xep:CharacterGetNumericValue:OFF -Xep:ErroneousThreadPoolConstructorChecker:OFF -Xep:StaticMockMember:OFF -Xep:MissingSuperCall:OFF -Xep:ToStringReturnsNull:OFF -Xep:DoubleBraceInitialization:OFF -Xep:CatchAndPrintStackTrace:OFF -Xep:SynchronizeOnNonFinalField:OFF -Xep:TypeParameterUnusedInFormals:OFF -Xep:CatchFail:OFF -Xep:JUnitAmbiguousTestClass:OFF -Xep:DefaultCharset:OFF -Xep:JdkObsolete:OFF -Xep:FunctionalInterfaceClash:OFF -Xep:FutureReturnValueIgnored:OFF -Xep:OperatorPrecedence:OFF -Xep:ThreadJoinLoop:OFF -Xep:StringSplitter:OFF -Xep:ClassNewInstance:OFF -Xep:ClassCanBeStatic:OFF -Xep:FloatCast:OFF -Xep:ThreadLocalUsage:OFF -Xep:Finally:OFF -Xep:FragmentNotInstantiable:OFF -Xep:HidingField:OFF -Xep:IntLongMath:OFF -Xep:BadComparable:OFF -Xep:EqualsHashCode:OFF -Xep:TypeParameterShadowing:OFF -Xep:ImmutableEnumChecker:OFF -Xep:InputStreamSlowMultibyteRead:OFF -Xep:BoxedPrimitiveConstructor:OFF -Xep:OverrideThrowableToString:OFF -Xep:CollectionToArraySafeParameter:OFF -Xep:ObjectToString:OFF -Xep:UnusedMethod:OFF -Xep:UnusedVariable:OFF -Xep:UnsafeReflectiveConstructionCast:OFF -Xep:MixedMutabilityReturnType:OFF -Xep:EqualsGetClass:OFF -Xep:UndefinedEquals:OFF -Xep:ExtendingJUnitAssert:OFF -Xep:SystemExitOutsideMain:OFF -Xep:TypeParameterNaming:OFF -Xep:UnusedException:OFF -Xep:UngroupedOverloads:OFF -Xep:FunctionalInterfaceClash:OFF -Xep:InconsistentOverloads:OFF -Xep:SameNameButDifferent:OFF -Xep:UnnecessaryLambda:OFF -Xep:UnnecessaryAnonymousClass:OFF -Xep:LiteProtoToString:OFF -Xep:MissingSummary:OFF -Xep:ReturnFromVoid:OFF -Xep:EmptyCatch:OFF -Xep:BadImport:OFF -Xep:UseCorrectAssertInTests:OFF -Xep:InlineFormatString:OFF -Xep:DefaultPackage:OFF -Xep:RefersToDaggerCodegen:OFF -Xep:RemoveUnusedImports:OFF -Xep:UnnecessaryParentheses:OFF -Xep:BinderIdentityRestoredDangerously:WARN -Xep:EmptyIf:WARN -Xep:EqualsBrokenForNull:WARN -Xep:InvalidThrows:WARN -Xep:LongLiteralLowerCaseSuffix:WARN -Xep:MultiVariableDeclaration:WARN -Xep:RedundantOverride:WARN -Xep:StaticQualifiedUsingExpression:WARN -Xep:StringEquality:WARN -Xep:TimeUnitMismatch:WARN -Xep:UnnecessaryStaticImport:WARN -Xep:UseBinds:WARN -Xep:WildcardImport:WARN",
+    "-XDshould-stop.ifNoError=FLOW",
+    "-source",
+    "1.8",
+    "-target",
+    "1.8",
+    "-proc:none",
+    "-bootclasspath",
+    "obj/third_party/android_sdk/android.ijar.jar:../../../../third_party/jdk/extras/java_8/jre/lib/rt.jar",
+    "-processorpath",
+    "lib.java/tools/android/errorprone_plugin/errorprone_plugin.jar:lib.java/third_party/android_deps/com_google_auto_service_auto_service_annotations.jar:lib.java/third_party/android_deps/com_google_code_findbugs_jsr305.jar:lib.java/third_party/android_deps/com_google_errorprone_error_prone_annotations.jar:lib.java/third_party/android_deps/com_google_guava_failureaccess.jar:lib.java/third_party/android_deps/com_google_guava_listenablefuture.jar:lib.java/third_party/android_deps/com_google_j2objc_j2objc_annotations.jar:lib.java/third_party/android_deps/org_checkerframework_checker_qual.jar:lib.java/third_party/android_deps/com_google_guava_guava.jar:lib.java/third_party/android_deps/com_google_errorprone_error_prone_annotation.jar:lib.java/third_party/android_deps/com_github_ben_manes_caffeine_caffeine.jar:lib.java/third_party/android_deps/com_github_kevinstern_software_and_algorithms.jar:lib.java/third_party/android_deps/com_google_auto_value_auto_value_annotations.jar:lib.java/third_party/android_deps/com_google_errorprone_javac.jar:lib.java/third_party/android_deps/org_eclipse_jgit_org_eclipse_jgit.jar:lib.java/third_party/android_deps/io_github_java_diff_utils_java_diff_utils.jar:lib.java/third_party/android_deps/org_checkerframework_dataflow_shaded.jar:lib.java/third_party/android_deps/com_google_errorprone_error_prone_check_api.jar:lib.java/third_party/android_deps/com_google_auto_auto_common.jar:lib.java/third_party/android_deps/com_google_code_findbugs_jFormatString.jar:lib.java/third_party/android_deps/com_google_errorprone_error_prone_type_annotations.jar:lib.java/third_party/android_deps/com_google_protobuf_protobuf_java.jar:lib.java/third_party/android_deps/org_pcollections_pcollections.jar:lib.java/third_party/android_deps/com_google_errorprone_error_prone_core.jar",
+    "-Werror",
+    "obj/sdk/android/builtin_audio_codecs_java.turbine.jar",
+    "obj/sdk/android/audio_api_java.turbine.jar",
+    "obj/rtc_base/base_java.turbine.jar",
+    "obj/sdk/android/base_java.turbine.jar",
+    "obj/third_party/android_deps/com_android_support_support_annotations.ijar.jar",
+    "../../../../sdk/android/api/org/webrtc/BuiltinAudioDecoderFactoryFactory.java",
+    "../../../../sdk/android/api/org/webrtc/BuiltinAudioEncoderFactoryFactory.java",
+    "True",
+    "['*/R.class', '*/R$*.class', '*/Manifest.class', '*/Manifest$*.class', '*/GEN_JNI.class']"
+  ]
+}

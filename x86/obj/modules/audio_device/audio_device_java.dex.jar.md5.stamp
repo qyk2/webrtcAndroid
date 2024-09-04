@@ -1,0 +1,486 @@
+{
+  "files-md5": "914cc585046aa0d602345a598402703c",
+  "strings-md5": "86d5c969b62e4233a8fd53006061341b",
+  "input-files": [
+    {
+      "path": "../../../../third_party/android_sdk/public/platforms/android-31/android.jar",
+      "tag": 1724919989.7716122
+    },
+    {
+      "path": "../../../../third_party/r8/custom_d8.jar",
+      "tag": "fe02536f40adfc073a510bbbb6d1d3c6"
+    },
+    {
+      "path": "../../../../third_party/r8/lib/r8.jar",
+      "tag": 1724920210.4980195
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/convert_dex_profile.py",
+      "tag": "e6753afd87d704820e70607d34498860"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/dex.py",
+      "tag": "db06a4dc0d57633ca194f0ea7de00354"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/__init__.py",
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/build_utils.py",
+      "tag": "d34fc29fcf83df8b0e21275db4c7f835"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/md5_check.py",
+      "tag": "d316f5db484d36b4f31dadb1d8d516b5"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/zipalign.py",
+      "tag": "8818e89d00e608134a17cc6bbbd30885"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/gn_helpers.py",
+      "tag": "82ccabe8a44083433a315afa418e3a3e"
+    },
+    {
+      "path": "obj/modules/audio_device/audio_device_java.processed.jar",
+      "tag": "7a05ac1dcd40ae3f606753eb1d2d958d",
+      "entries": [
+        {
+          "path": "org/webrtc/voiceengine/BuildInfo.class",
+          "tag": 3627409253
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioEffects.class",
+          "tag": 3307511845
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioManager$VolumeLogger$LogVolumeTask.class",
+          "tag": 1709204191
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioManager$VolumeLogger.class",
+          "tag": 4054301167
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioManager.class",
+          "tag": 401395343
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioRecord$1.class",
+          "tag": 2356406019
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioRecord$AudioRecordStartErrorCode.class",
+          "tag": 1527723256
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioRecord$AudioRecordThread.class",
+          "tag": 1671690466
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioRecord$AudioSamples.class",
+          "tag": 458637904
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioRecord$WebRtcAudioRecordErrorCallback.class",
+          "tag": 3923166899
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioRecord$WebRtcAudioRecordSamplesReadyCallback.class",
+          "tag": 4203418321
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioRecord.class",
+          "tag": 2684184767
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioTrack$AudioTrackStartErrorCode.class",
+          "tag": 1289311824
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioTrack$AudioTrackThread.class",
+          "tag": 3417662849
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioTrack$ErrorCallback.class",
+          "tag": 2430985042
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioTrack$WebRtcAudioTrackErrorCallback.class",
+          "tag": 264673543
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioTrack.class",
+          "tag": 1469549572
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioUtils.class",
+          "tag": 3006194101
+        }
+      ]
+    },
+    {
+      "path": "obj/modules/audio_device/audio_device_java.turbine.jar",
+      "tag": "b767021fc6d2c799f32ede0a181ad8f5",
+      "entries": [
+        {
+          "path": "org/webrtc/voiceengine/BuildInfo.class",
+          "tag": 3868528912
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioEffects.class",
+          "tag": 60970912
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioManager$VolumeLogger$LogVolumeTask.class",
+          "tag": 913419444
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioManager$VolumeLogger.class",
+          "tag": 2884010693
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioManager.class",
+          "tag": 369577085
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioRecord$AudioRecordStartErrorCode.class",
+          "tag": 3899275029
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioRecord$WebRtcAudioRecordErrorCallback.class",
+          "tag": 2523413247
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioRecord$AudioSamples.class",
+          "tag": 756870431
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioRecord$WebRtcAudioRecordSamplesReadyCallback.class",
+          "tag": 595831041
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioRecord$AudioRecordThread.class",
+          "tag": 1541369206
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioRecord.class",
+          "tag": 3537586721
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioTrack$AudioTrackStartErrorCode.class",
+          "tag": 3187681170
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioTrack$WebRtcAudioTrackErrorCallback.class",
+          "tag": 67076762
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioTrack$ErrorCallback.class",
+          "tag": 835900577
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioTrack$AudioTrackThread.class",
+          "tag": 2965980800
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioTrack.class",
+          "tag": 42362439
+        },
+        {
+          "path": "org/webrtc/voiceengine/WebRtcAudioUtils.class",
+          "tag": 123798495
+        }
+      ]
+    },
+    {
+      "path": "obj/rtc_base/base_java.turbine.jar",
+      "tag": "f9508282abd84d77d3d1445481323de3",
+      "entries": [
+        {
+          "path": "org/webrtc/ContextUtils.class",
+          "tag": 64129025
+        },
+        {
+          "path": "org/webrtc/Loggable.class",
+          "tag": 3467976125
+        },
+        {
+          "path": "org/webrtc/Logging$TraceLevel.class",
+          "tag": 3236503307
+        },
+        {
+          "path": "org/webrtc/Logging$Severity.class",
+          "tag": 3172444188
+        },
+        {
+          "path": "org/webrtc/Logging.class",
+          "tag": 3977484009
+        },
+        {
+          "path": "org/webrtc/Size.class",
+          "tag": 3060632339
+        },
+        {
+          "path": "org/webrtc/ThreadUtils$ThreadChecker.class",
+          "tag": 1150107151
+        },
+        {
+          "path": "org/webrtc/ThreadUtils$BlockingOperation.class",
+          "tag": 99805275
+        },
+        {
+          "path": "org/webrtc/ThreadUtils.class",
+          "tag": 2178114097
+        }
+      ]
+    },
+    {
+      "path": "obj/third_party/android_deps/com_android_support_support_annotations.ijar.jar",
+      "tag": "42a47b1238e181e1cae045d2c1bdda37",
+      "entries": [
+        {
+          "path": "android/support/annotation/AnimRes.class",
+          "tag": 1562425982
+        },
+        {
+          "path": "android/support/annotation/AnimatorRes.class",
+          "tag": 843319384
+        },
+        {
+          "path": "android/support/annotation/AnyRes.class",
+          "tag": 481075667
+        },
+        {
+          "path": "android/support/annotation/AnyThread.class",
+          "tag": 1499780735
+        },
+        {
+          "path": "android/support/annotation/ArrayRes.class",
+          "tag": 507880322
+        },
+        {
+          "path": "android/support/annotation/AttrRes.class",
+          "tag": 265522084
+        },
+        {
+          "path": "android/support/annotation/BinderThread.class",
+          "tag": 727258353
+        },
+        {
+          "path": "android/support/annotation/BoolRes.class",
+          "tag": 2891548674
+        },
+        {
+          "path": "android/support/annotation/CallSuper.class",
+          "tag": 3182070281
+        },
+        {
+          "path": "android/support/annotation/CheckResult.class",
+          "tag": 1817477209
+        },
+        {
+          "path": "android/support/annotation/ColorInt.class",
+          "tag": 480621226
+        },
+        {
+          "path": "android/support/annotation/ColorLong.class",
+          "tag": 1083568715
+        },
+        {
+          "path": "android/support/annotation/ColorRes.class",
+          "tag": 31685411
+        },
+        {
+          "path": "android/support/annotation/DimenRes.class",
+          "tag": 3492095237
+        },
+        {
+          "path": "android/support/annotation/Dimension.class",
+          "tag": 2937568770
+        },
+        {
+          "path": "android/support/annotation/DrawableRes.class",
+          "tag": 2151651946
+        },
+        {
+          "path": "android/support/annotation/FloatRange.class",
+          "tag": 1008785167
+        },
+        {
+          "path": "android/support/annotation/FontRes.class",
+          "tag": 3848421509
+        },
+        {
+          "path": "android/support/annotation/FractionRes.class",
+          "tag": 57250790
+        },
+        {
+          "path": "android/support/annotation/GuardedBy.class",
+          "tag": 2276733495
+        },
+        {
+          "path": "android/support/annotation/HalfFloat.class",
+          "tag": 2981751098
+        },
+        {
+          "path": "android/support/annotation/IdRes.class",
+          "tag": 1590646282
+        },
+        {
+          "path": "android/support/annotation/IntDef.class",
+          "tag": 159961554
+        },
+        {
+          "path": "android/support/annotation/IntRange.class",
+          "tag": 2891836734
+        },
+        {
+          "path": "android/support/annotation/IntegerRes.class",
+          "tag": 3255824937
+        },
+        {
+          "path": "android/support/annotation/InterpolatorRes.class",
+          "tag": 716811357
+        },
+        {
+          "path": "android/support/annotation/Keep.class",
+          "tag": 798935410
+        },
+        {
+          "path": "android/support/annotation/LayoutRes.class",
+          "tag": 2985868820
+        },
+        {
+          "path": "android/support/annotation/LongDef.class",
+          "tag": 1531387699
+        },
+        {
+          "path": "android/support/annotation/MainThread.class",
+          "tag": 2938365212
+        },
+        {
+          "path": "android/support/annotation/MenuRes.class",
+          "tag": 2482781619
+        },
+        {
+          "path": "android/support/annotation/NavigationRes.class",
+          "tag": 62713771
+        },
+        {
+          "path": "android/support/annotation/NonNull.class",
+          "tag": 3769764700
+        },
+        {
+          "path": "android/support/annotation/Nullable.class",
+          "tag": 1772987621
+        },
+        {
+          "path": "android/support/annotation/PluralsRes.class",
+          "tag": 3296080513
+        },
+        {
+          "path": "android/support/annotation/Px.class",
+          "tag": 416702169
+        },
+        {
+          "path": "android/support/annotation/RawRes.class",
+          "tag": 3037944061
+        },
+        {
+          "path": "android/support/annotation/RequiresApi.class",
+          "tag": 1745931682
+        },
+        {
+          "path": "android/support/annotation/RequiresFeature.class",
+          "tag": 995080394
+        },
+        {
+          "path": "android/support/annotation/RequiresPermission$Read.class",
+          "tag": 2419055564
+        },
+        {
+          "path": "android/support/annotation/RequiresPermission$Write.class",
+          "tag": 4041426528
+        },
+        {
+          "path": "android/support/annotation/RequiresPermission.class",
+          "tag": 2506280928
+        },
+        {
+          "path": "android/support/annotation/RestrictTo$Scope.class",
+          "tag": 2057419459
+        },
+        {
+          "path": "android/support/annotation/RestrictTo.class",
+          "tag": 1870862583
+        },
+        {
+          "path": "android/support/annotation/Size.class",
+          "tag": 347733516
+        },
+        {
+          "path": "android/support/annotation/StringDef.class",
+          "tag": 924210305
+        },
+        {
+          "path": "android/support/annotation/StringRes.class",
+          "tag": 559400619
+        },
+        {
+          "path": "android/support/annotation/StyleRes.class",
+          "tag": 2499078753
+        },
+        {
+          "path": "android/support/annotation/StyleableRes.class",
+          "tag": 3499250285
+        },
+        {
+          "path": "android/support/annotation/TransitionRes.class",
+          "tag": 39627381
+        },
+        {
+          "path": "android/support/annotation/UiThread.class",
+          "tag": 3463657704
+        },
+        {
+          "path": "android/support/annotation/VisibleForTesting.class",
+          "tag": 2923919549
+        },
+        {
+          "path": "android/support/annotation/WorkerThread.class",
+          "tag": 3211303065
+        },
+        {
+          "path": "android/support/annotation/XmlRes.class",
+          "tag": 1454784314
+        }
+      ]
+    }
+  ],
+  "input-strings": [
+    "../../../../third_party/jdk/current/bin/java",
+    "-Xmx2G",
+    "-cp",
+    "../../../../third_party/r8/lib/r8.jar:../../../../third_party/r8/custom_d8.jar",
+    "org.chromium.build.CustomD8",
+    "--min-api",
+    "21",
+    "--desugar-dependencies",
+    "gen/modules/audio_device/audio_device_java__dex.desugardeps",
+    "--classpath",
+    "obj/rtc_base/base_java.turbine.jar",
+    "--classpath",
+    "obj/third_party/android_deps/com_android_support_support_annotations.ijar.jar",
+    "--classpath",
+    "obj/modules/audio_device/audio_device_java.turbine.jar",
+    "--lib",
+    "../../../../third_party/jdk/current",
+    "--lib",
+    "../../../../third_party/android_sdk/public/platforms/android-31/android.jar",
+    "--desugared-lib",
+    "../../../../third_party/r8/desugar_jdk_libs.json",
+    "True"
+  ]
+}

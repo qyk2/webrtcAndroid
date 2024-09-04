@@ -1,0 +1,18 @@
+defines = -D_GNU_SOURCE -DANDROID -DHAVE_SYS_UIO_H -DANDROID_NDK_VERSION_ROLL=r22_1 -DCR_CLANG_REVISION=\"llvmorg-14-init-1002-gb5e470aa-1\" -DNDEBUG -DNVALGRIND -DDYNAMIC_ANNOTATIONS_ENABLED=0
+include_dirs = -I../../../../third_party/zlib -I../../../.. -Igen
+cflags = -Wno-incompatible-pointer-types-discards-qualifiers -fno-delete-null-pointer-checks -fno-ident -fno-strict-aliasing --param=ssp-buffer-size=4 -fstack-protector -funwind-tables -fPIC -fcolor-diagnostics -fmerge-all-constants -fcrash-diagnostics-dir=../../../../tools/clang/crashreports -mllvm -instcombine-lower-dbg-declare=0 -ffp-contract=off -ffunction-sections -fno-short-enums --target=x86_64-linux-android21 -m64 -march=x86-64 -msse3 -Wno-builtin-macro-redefined -D__DATE__= -D__TIME__= -D__TIMESTAMP__= -ffile-compilation-dir=. -no-canonical-prefixes -fomit-frame-pointer -g1 -fdebug-info-for-profiling -fvisibility=hidden -Xclang -add-plugin -Xclang find-bad-constructs -Xclang -plugin-arg-find-bad-constructs -Xclang raw-ptr-template-as-trivial-member -Xclang -plugin-arg-find-bad-constructs -Xclang check-ipc -Wheader-hygiene -Wstring-conversion -Wtautological-overlap-compare -O3 -fdata-sections -ffunction-sections -fno-unique-section-names -Werror -Wall -Wno-unused-variable -Wno-c++11-narrowing -Wno-misleading-indentation -Wno-missing-field-initializers -Wno-unused-parameter -Wloop-analysis -Wno-unneeded-internal-declaration -Wenum-compare-conditional -Wno-psabi -Wno-ignored-pragma-optimize -Wno-builtin-assume-aligned-alignment -Wno-deprecated-copy -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-inline-asm
+cflags_c = -std=c11 --sysroot=../../../../third_party/android_ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot
+label_name = miniunz_bin
+root_out_dir = .
+target_out_dir = obj/third_party/zlib
+target_output_name = miniunz_bin
+
+build obj/third_party/zlib/miniunz_bin/miniunz.o: cc ../../../../third_party/zlib/contrib/minizip/miniunz.c
+
+build ./miniunz_bin ./exe.unstripped/miniunz_bin: link obj/third_party/zlib/miniunz_bin/miniunz.o obj/third_party/zlib/zlib_adler32_simd/adler32_simd.o obj/third_party/zlib/zlib_inflate_chunk_simd/inffast_chunk.o obj/third_party/zlib/zlib_inflate_chunk_simd/inflate.o obj/third_party/zlib/zlib_crc32_simd/crc32_simd.o obj/third_party/zlib/zlib_x86_simd/crc_folding.o obj/third_party/zlib/zlib_x86_simd/fill_window_sse.o obj/third_party/android_ndk/cpu_features/cpu-features.o obj/third_party/zlib/libminizip.a obj/third_party/zlib/libchrome_zlib.a || obj/build/config/executable_deps.stamp obj/third_party/zlib/zlib_adler32_simd.stamp obj/third_party/zlib/zlib_common_headers.stamp obj/third_party/zlib/zlib_inflate_chunk_simd.stamp obj/third_party/zlib/zlib_crc32_simd.stamp obj/third_party/zlib/zlib_x86_simd.stamp obj/third_party/android_ndk/cpu_features.stamp
+  ldflags = -fuse-ld=lld -Wl,--fatal-warnings -Wl,--build-id -fPIC -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--icf=all -Wl,--color-diagnostics -Wl,--no-rosegment -Wl,--no-call-graph-profile-sort -Wl,--exclude-libs=libgcc.a -Wl,--exclude-libs=libvpx_assembly_arm.a --rtlib=libgcc --target=x86_64-linux-android21 -m64 --sysroot=../../../../third_party/android_ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot --gcc-toolchain=../../../../third_party/android_ndk/toolchains/llvm/prebuilt/linux-x86_64 -Wl,--warn-shared-textrel -Wl,-z,defs -Wl,--as-needed -pie -Bdynamic -Wl,-z,nocopyreloc -Wl,--warn-shared-textrel -Wl,-O2 -Wl,--gc-sections -Werror
+  libs = -ldl -lm
+  frameworks =
+  swiftmodules =
+  output_extension = 
+  output_dir = .

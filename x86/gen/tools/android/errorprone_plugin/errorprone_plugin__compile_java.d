@@ -1,0 +1,25 @@
+obj/tools/android/errorprone_plugin/errorprone_plugin.javac.jar: \
+ obj/tools/android/errorprone_plugin/errorprone_plugin.turbine.jar \
+ obj/third_party/android_deps/com_google_errorprone_error_prone_core.ijar.jar \
+ obj/third_party/android_deps/org_pcollections_pcollections.ijar.jar \
+ obj/third_party/android_deps/com_google_protobuf_protobuf_java.ijar.jar \
+ obj/third_party/android_deps/com_google_errorprone_error_prone_type_annotations.ijar.jar \
+ obj/third_party/android_deps/com_google_code_findbugs_jFormatString.ijar.jar \
+ obj/third_party/android_deps/com_google_auto_auto_common.ijar.jar \
+ obj/third_party/android_deps/com_google_errorprone_error_prone_check_api.ijar.jar \
+ obj/third_party/android_deps/org_checkerframework_dataflow_shaded.ijar.jar \
+ obj/third_party/android_deps/io_github_java_diff_utils_java_diff_utils.ijar.jar \
+ obj/third_party/android_deps/org_eclipse_jgit_org_eclipse_jgit.ijar.jar \
+ obj/third_party/android_deps/com_google_errorprone_javac.ijar.jar \
+ obj/third_party/android_deps/com_google_auto_value_auto_value_annotations.ijar.jar \
+ obj/third_party/android_deps/com_github_kevinstern_software_and_algorithms.ijar.jar \
+ obj/third_party/android_deps/com_github_ben_manes_caffeine_caffeine.ijar.jar \
+ obj/third_party/android_deps/com_google_errorprone_error_prone_annotation.ijar.jar \
+ obj/third_party/android_deps/com_google_guava_guava.ijar.jar \
+ obj/third_party/android_deps/org_checkerframework_checker_qual.ijar.jar \
+ obj/third_party/android_deps/com_google_j2objc_j2objc_annotations.ijar.jar \
+ obj/third_party/android_deps/com_google_guava_listenablefuture.ijar.jar \
+ obj/third_party/android_deps/com_google_guava_failureaccess.ijar.jar \
+ obj/third_party/android_deps/com_google_errorprone_error_prone_annotations.ijar.jar \
+ obj/third_party/android_deps/com_google_code_findbugs_jsr305.ijar.jar \
+ obj/third_party/android_deps/com_google_auto_service_auto_service_annotations.ijar.jar

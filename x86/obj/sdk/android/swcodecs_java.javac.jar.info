@@ -1,0 +1,2 @@
+org.webrtc.SoftwareVideoDecoderFactory,../../../../sdk/android/api/org/webrtc/SoftwareVideoDecoderFactory.java
+org.webrtc.SoftwareVideoEncoderFactory,../../../../sdk/android/api/org/webrtc/SoftwareVideoEncoderFactory.java

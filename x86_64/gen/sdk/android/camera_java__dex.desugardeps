@@ -1,0 +1,15 @@
+/org/webrtc/CameraEnumerationAndroid$1.class -> /org/webrtc/CameraEnumerationAndroid$ClosestComparator.class
+/org/webrtc/Camera1Enumerator.class -> /org/webrtc/CameraEnumerator.class
+/org/webrtc/CameraEnumerationAndroid$2.class -> /org/webrtc/CameraEnumerationAndroid$ClosestComparator.class
+/org/webrtc/Camera2Enumerator.class -> /org/webrtc/CameraEnumerator.class
+/org/webrtc/Camera1Capturer.class -> /org/webrtc/CameraCapturer.class
+/org/webrtc/CameraCapturer.class -> /org/webrtc/CameraVideoCapturer.class
+/org/webrtc/CameraVideoCapturer.class -> obj/sdk/android/video_java.turbine.jar:org/webrtc/VideoCapturer.class
+/org/webrtc/Camera2Session.class -> /org/webrtc/CameraSession.class
+/org/webrtc/Camera2Session$CaptureSessionCallback.class -> obj/sdk/android/video_api_java.turbine.jar:org/webrtc/VideoSink.class
+/org/webrtc/Camera1Session.class -> obj/sdk/android/video_api_java.turbine.jar:org/webrtc/VideoSink.class
+/org/webrtc/CameraCapturer$4.class -> /org/webrtc/CameraVideoCapturer$CameraEventsHandler.class
+/org/webrtc/CameraCapturer$1.class -> /org/webrtc/CameraSession$CreateSessionCallback.class
+/org/webrtc/CameraCapturer$2.class -> /org/webrtc/CameraSession$Events.class
+/org/webrtc/Camera2Capturer.class -> /org/webrtc/CameraCapturer.class
+/org/webrtc/Camera1Session.class -> /org/webrtc/CameraSession.class

@@ -1,0 +1,495 @@
+{
+  "files-md5": "c7a0c6ad7741fbdd944e5027c6b41377",
+  "strings-md5": "bd0aae40a1a8bac5a0ed35c98be19760",
+  "input-files": [
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/AddIceObserver.java",
+      "tag": "d52d519c242981fac0ff234500c37fe1"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/AudioProcessingFactory.java",
+      "tag": "f5b1ca67898dd52184021ab4eb8f7579"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/AudioSource.java",
+      "tag": "b826593194106ab67eb444cac469f5c1"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/AudioTrack.java",
+      "tag": "93ac5c1e2cc1b8331ff30e897e13b0ac"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/CallSessionFileRotatingLogSink.java",
+      "tag": "a77581cdade82769d03e8c4c5947fbb3"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/CandidatePairChangeEvent.java",
+      "tag": "e4273bdeeb52a51118c838174de62de6"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/CryptoOptions.java",
+      "tag": "69b0a0c6e402378afd288efa2f4066d8"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/DataChannel.java",
+      "tag": "25addb005d2c3c7c105d1c087387bf3d"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/DtmfSender.java",
+      "tag": "3a418d328d0e7f5f71494a58b703bb71"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/FecControllerFactoryFactoryInterface.java",
+      "tag": "9af62f9ece5c7cfbf7e292309c25de15"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/FrameDecryptor.java",
+      "tag": "31e67a582dcbec3d366a682b6e131c0d"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/FrameEncryptor.java",
+      "tag": "719ca3150039be43d04beb2cdb465808"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/IceCandidate.java",
+      "tag": "e57a9e5d05d9a52072acf3615b6ec4b8"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/MediaConstraints.java",
+      "tag": "1881d7ea5a0378918beea7b14291cba8"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/MediaSource.java",
+      "tag": "ba1765c888d378b4eadf69cc9d2528ca"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/MediaStream.java",
+      "tag": "809c9d2041411c2c4f1d9df948d9a82d"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/MediaStreamTrack.java",
+      "tag": "9c97f6b43042c587a852c44cc3d819fe"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/NativeLibraryLoader.java",
+      "tag": "47dfffc46ba4921c9fba0d0a4b1c1604"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/NativePeerConnectionFactory.java",
+      "tag": "785ca9c326fa5bb5fa0c27b94212a047"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/NetEqFactoryFactory.java",
+      "tag": "368aaf20684f1aa1030c0ac1945cb5e0"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/NetworkChangeDetector.java",
+      "tag": "0a9a436ef6e58a3f0875ea08e799be93"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/NetworkChangeDetectorFactory.java",
+      "tag": "eab113e3b9d3ca678edd0b8b23b503ef"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/NetworkControllerFactoryFactory.java",
+      "tag": "a158aebbc95cdb6fc37816075452e5e9"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/NetworkMonitor.java",
+      "tag": "37d012a23834c52a814c911a9fd1ea33"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/NetworkMonitorAutoDetect.java",
+      "tag": "76f30b4cd0a76830db3372e97405559b"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/NetworkStatePredictorFactoryFactory.java",
+      "tag": "95dc2d6102b61767889ad582c2589884"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/PeerConnection.java",
+      "tag": "017364968edf719ca2983a265ae31f36"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/PeerConnectionDependencies.java",
+      "tag": "db386752fa8f28fe6f17388dfd97ee66"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/PeerConnectionFactory.java",
+      "tag": "267d68219f2172f5218cf8efa8e5ffa7"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/RTCStats.java",
+      "tag": "ac4ffee56b15c3d01b10d2bf764afcee"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/RTCStatsCollectorCallback.java",
+      "tag": "0f51ea843ce8266e09dcac51be036cac"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/RTCStatsReport.java",
+      "tag": "2e2b0a059c3b3b6c2124ac2b66698d34"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/RtcCertificatePem.java",
+      "tag": "2fec4c25e2a843df946a27aec3b90b94"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/RtpParameters.java",
+      "tag": "d4d9b3be9c04ce40838525cc21256104"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/RtpReceiver.java",
+      "tag": "929b44d566e1dd918f25515d67c8e093"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/RtpSender.java",
+      "tag": "9cb8589d3459f9ef6c74458f90ccd8dd"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/RtpTransceiver.java",
+      "tag": "a437d644557d9d07b9324023e66fcbbe"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/SSLCertificateVerifier.java",
+      "tag": "dbc53e913dc0af13aaa55889fc17eb65"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/SdpObserver.java",
+      "tag": "9ac638208c64b4f29c5c697eb3b03de3"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/SessionDescription.java",
+      "tag": "c3bed1b476ee63d1a5bb114d3f4ec00f"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/StatsObserver.java",
+      "tag": "e8f1700524e0eabee9f29fdd9cacf3f3"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/StatsReport.java",
+      "tag": "7783fafe47a33e30905d3124feea0da9"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/TurnCustomizer.java",
+      "tag": "f0e0e57e5d81410e5f0539c18ce138a4"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/VideoProcessor.java",
+      "tag": "8817deb31cb7426980ddf4d6a414dd08"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/VideoSource.java",
+      "tag": "28fe4828623dcc184fb1c3cf5a173318"
+    },
+    {
+      "path": "../../../../sdk/android/api/org/webrtc/VideoTrack.java",
+      "tag": "908704c072582795025c8707797f8931"
+    },
+    {
+      "path": "../../../../sdk/android/src/java/org/webrtc/NativeAndroidVideoTrackSource.java",
+      "tag": "8c081a98c816cf17e980a61f0b8261bb"
+    },
+    {
+      "path": "../../../../sdk/android/src/java/org/webrtc/NativeCapturerObserver.java",
+      "tag": "ec7b60ee97eaed440bcc812a5146b464"
+    },
+    {
+      "path": "../../../../sdk/android/src/java/org/webrtc/NativeLibrary.java",
+      "tag": "e4c4f5cba617f4be14457a0a3b84ed75"
+    },
+    {
+      "path": "../../../../third_party/jdk/extras/java_8/jre/lib/rt.jar",
+      "tag": 1724920343.227469
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/compile_java.py",
+      "tag": "f24830ed4452770237330424d537293d"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/javac_output_processor.py",
+      "tag": "8b57626e24f0f84eb4bd9c8ca447df20"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/__init__.py",
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/build_utils.py",
+      "tag": "d34fc29fcf83df8b0e21275db4c7f835"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/jar_info_utils.py",
+      "tag": "df42af7ddf4fad2b3dcdb434e13462be"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/md5_check.py",
+      "tag": "d316f5db484d36b4f31dadb1d8d516b5"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/server_utils.py",
+      "tag": "d7ec2e74c5af62a850004eef1ce8ad62"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/list_java_targets.py",
+      "tag": "73c3159d016471084df975e117c4d0fb"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/pylib/__init__.py",
+      "tag": "bc0d9c29878ff9eac17ef2cd63e93d46"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/pylib/constants/__init__.py",
+      "tag": "43bce558d034ccf6f15ad6d894b40936"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/gn_helpers.py",
+      "tag": "82ccabe8a44083433a315afa418e3a3e"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/__init__.py",
+      "tag": "2c2baffced354f1c87bbb4188cce1aff"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/__init__.py",
+      "tag": "554cf18947f37d15383f328ef13f893b"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/constants/__init__.py",
+      "tag": "554cf18947f37d15383f328ef13f893b"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/constants/chrome.py",
+      "tag": "2f0b5b14ef207172d8e3b3dda572a43b"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/sdk/__init__.py",
+      "tag": "73a8a79983ebf4da9dd87eaf6a170582"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/sdk/keyevent.py",
+      "tag": "60e96e73367ec8d1a3790106439c12f7"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/android/sdk/version_codes.py",
+      "tag": "37e3a70cf1ed989a5470886ae52d4b97"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/constants/__init__.py",
+      "tag": "554cf18947f37d15383f328ef13f893b"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/catapult/devil/devil/constants/exit_codes.py",
+      "tag": "ce1a1cf17102e8620107307e1c3cccbe"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/__init__.py",
+      "tag": "de647b90a4b99c279f3e4e358ea39b3e"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/ansi.py",
+      "tag": "3ad189643bf1b70eb5be73153569c26c"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/ansitowin32.py",
+      "tag": "9b39fc8f8d1af5b00161ed93f037176b"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/initialise.py",
+      "tag": "91141f9b74377895dae6f33b6de5cca8"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/win32.py",
+      "tag": "e6ef5597c899deefd23e628b209763dd"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/third_party/colorama/src/colorama/winterm.py",
+      "tag": "9d0c650cd287ccf58d29894feec2178f"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/tools/android/modularization/convenience/lookup_dep.py",
+      "tag": "45942732fa744007ecaae047e9a6f415"
+    },
+    {
+      "path": "gen/api/priority_enums.srcjar",
+      "tag": "39472ed487d10dbc2e97067ef91a008f"
+    },
+    {
+      "path": "gen/rtc_base/network_monitor_enums.srcjar",
+      "tag": "ad1cc023ae039ebdd4c2d0fb2cdee5ec"
+    },
+    {
+      "path": "gen/sdk/android/peerconnection_java.generated.srcjar",
+      "tag": "9c08003ff7dbb09effd556b4d8e412ad"
+    },
+    {
+      "path": "obj/modules/audio_device/audio_device_java.turbine.jar",
+      "tag": "6faf3c2c44e4af7b9b491b65eb678561"
+    },
+    {
+      "path": "obj/rtc_base/base_java.turbine.jar",
+      "tag": "c5076850d6963deeec828a6c16a3def5"
+    },
+    {
+      "path": "obj/sdk/android/audio_api_java.turbine.jar",
+      "tag": "7017bd541868325cc13ac5399d32df61"
+    },
+    {
+      "path": "obj/sdk/android/base_java.turbine.jar",
+      "tag": "b3055e6beed28498f20d924572f59053"
+    },
+    {
+      "path": "obj/sdk/android/builtin_audio_codecs_java.turbine.jar",
+      "tag": "9596069c4f408d524f0f7e7bd05d5d64"
+    },
+    {
+      "path": "obj/sdk/android/default_video_codec_factory_java.turbine.jar",
+      "tag": "f21cd0b18f46f65bd323b1bee68eb7ea"
+    },
+    {
+      "path": "obj/sdk/android/hwcodecs_java.turbine.jar",
+      "tag": "db510c5ca224ab47b37c1816f4d1c30f"
+    },
+    {
+      "path": "obj/sdk/android/java_audio_device_module_java.turbine.jar",
+      "tag": "4e7dd6b9a68e9ce316444cff9ea2d471"
+    },
+    {
+      "path": "obj/sdk/android/libH264_java.turbine.jar",
+      "tag": "d67a2f9f66942453545da08a39495a1b"
+    },
+    {
+      "path": "obj/sdk/android/libaom_av1_java.turbine.jar",
+      "tag": "d45ba4911afdb471583e24a97288e484"
+    },
+    {
+      "path": "obj/sdk/android/libvpx_vp8_java.turbine.jar",
+      "tag": "f679a3a5d4ffdc2dc657f27e9823a9cb"
+    },
+    {
+      "path": "obj/sdk/android/libvpx_vp9_java.turbine.jar",
+      "tag": "db6044f50dc8ec1a700bdb1c7ddcdb92"
+    },
+    {
+      "path": "obj/sdk/android/logging_java.turbine.jar",
+      "tag": "90c0f5fb96a9fe3e1c51176813aa7803"
+    },
+    {
+      "path": "obj/sdk/android/peerconnection_java.turbine.jar",
+      "tag": "5bb72c6d323d6282201ebd3d1107e82f"
+    },
+    {
+      "path": "obj/sdk/android/peerconnection_java.turbine.jar",
+      "tag": "5bb72c6d323d6282201ebd3d1107e82f"
+    },
+    {
+      "path": "obj/sdk/android/swcodecs_java.turbine.jar",
+      "tag": "e30454b90abe76f49d556af1bac4e3fe"
+    },
+    {
+      "path": "obj/sdk/android/video_api_java.turbine.jar",
+      "tag": "4a92f7f856909bbdfa4e58af936bd968"
+    },
+    {
+      "path": "obj/sdk/android/video_java.turbine.jar",
+      "tag": "3c154791b2a9c01945bbf49bfc660f8b"
+    },
+    {
+      "path": "obj/third_party/android_deps/com_android_support_support_annotations.ijar.jar",
+      "tag": "d0e31288437b0472074740d9b3441da4"
+    },
+    {
+      "path": "obj/third_party/android_sdk/android.ijar.jar",
+      "tag": 1725422386.6670935
+    },
+    {
+      "path": "obj/third_party/androidx/androidx_annotation_annotation.ijar.jar",
+      "tag": "cc46c2b223f3203a4259e5efb5bbba27"
+    }
+  ],
+  "input-strings": [
+    "../../../../third_party/jdk/current/bin/javac",
+    "-g",
+    "-encoding",
+    "UTF-8",
+    "-sourcepath",
+    ":",
+    "-source",
+    "1.8",
+    "-target",
+    "1.8",
+    "-proc:none",
+    "-bootclasspath",
+    "obj/third_party/android_sdk/android.ijar.jar:../../../../third_party/jdk/extras/java_8/jre/lib/rt.jar",
+    "obj/sdk/android/peerconnection_java.turbine.jar",
+    "obj/modules/audio_device/audio_device_java.turbine.jar",
+    "obj/sdk/android/logging_java.turbine.jar",
+    "obj/sdk/android/java_audio_device_module_java.turbine.jar",
+    "obj/sdk/android/default_video_codec_factory_java.turbine.jar",
+    "obj/sdk/android/swcodecs_java.turbine.jar",
+    "obj/sdk/android/libvpx_vp9_java.turbine.jar",
+    "obj/sdk/android/libH264_java.turbine.jar",
+    "obj/sdk/android/libvpx_vp8_java.turbine.jar",
+    "obj/sdk/android/libaom_av1_java.turbine.jar",
+    "obj/sdk/android/hwcodecs_java.turbine.jar",
+    "obj/sdk/android/video_java.turbine.jar",
+    "obj/sdk/android/video_api_java.turbine.jar",
+    "obj/third_party/androidx/androidx_annotation_annotation.ijar.jar",
+    "obj/sdk/android/builtin_audio_codecs_java.turbine.jar",
+    "obj/sdk/android/audio_api_java.turbine.jar",
+    "obj/rtc_base/base_java.turbine.jar",
+    "obj/sdk/android/base_java.turbine.jar",
+    "obj/third_party/android_deps/com_android_support_support_annotations.ijar.jar",
+    "../../../../sdk/android/api/org/webrtc/AddIceObserver.java",
+    "../../../../sdk/android/api/org/webrtc/AudioProcessingFactory.java",
+    "../../../../sdk/android/api/org/webrtc/AudioSource.java",
+    "../../../../sdk/android/api/org/webrtc/AudioTrack.java",
+    "../../../../sdk/android/api/org/webrtc/CallSessionFileRotatingLogSink.java",
+    "../../../../sdk/android/api/org/webrtc/CandidatePairChangeEvent.java",
+    "../../../../sdk/android/api/org/webrtc/CryptoOptions.java",
+    "../../../../sdk/android/api/org/webrtc/DataChannel.java",
+    "../../../../sdk/android/api/org/webrtc/DtmfSender.java",
+    "../../../../sdk/android/api/org/webrtc/FecControllerFactoryFactoryInterface.java",
+    "../../../../sdk/android/api/org/webrtc/FrameDecryptor.java",
+    "../../../../sdk/android/api/org/webrtc/FrameEncryptor.java",
+    "../../../../sdk/android/api/org/webrtc/IceCandidate.java",
+    "../../../../sdk/android/api/org/webrtc/MediaConstraints.java",
+    "../../../../sdk/android/api/org/webrtc/MediaSource.java",
+    "../../../../sdk/android/api/org/webrtc/MediaStream.java",
+    "../../../../sdk/android/api/org/webrtc/MediaStreamTrack.java",
+    "../../../../sdk/android/api/org/webrtc/NativeLibraryLoader.java",
+    "../../../../sdk/android/api/org/webrtc/NativePeerConnectionFactory.java",
+    "../../../../sdk/android/api/org/webrtc/NetEqFactoryFactory.java",
+    "../../../../sdk/android/api/org/webrtc/NetworkChangeDetector.java",
+    "../../../../sdk/android/api/org/webrtc/NetworkChangeDetectorFactory.java",
+    "../../../../sdk/android/api/org/webrtc/NetworkControllerFactoryFactory.java",
+    "../../../../sdk/android/api/org/webrtc/NetworkMonitor.java",
+    "../../../../sdk/android/api/org/webrtc/NetworkMonitorAutoDetect.java",
+    "../../../../sdk/android/api/org/webrtc/NetworkStatePredictorFactoryFactory.java",
+    "../../../../sdk/android/api/org/webrtc/PeerConnection.java",
+    "../../../../sdk/android/api/org/webrtc/PeerConnectionDependencies.java",
+    "../../../../sdk/android/api/org/webrtc/PeerConnectionFactory.java",
+    "../../../../sdk/android/api/org/webrtc/RTCStats.java",
+    "../../../../sdk/android/api/org/webrtc/RTCStatsCollectorCallback.java",
+    "../../../../sdk/android/api/org/webrtc/RTCStatsReport.java",
+    "../../../../sdk/android/api/org/webrtc/RtcCertificatePem.java",
+    "../../../../sdk/android/api/org/webrtc/RtpParameters.java",
+    "../../../../sdk/android/api/org/webrtc/RtpReceiver.java",
+    "../../../../sdk/android/api/org/webrtc/RtpSender.java",
+    "../../../../sdk/android/api/org/webrtc/RtpTransceiver.java",
+    "../../../../sdk/android/api/org/webrtc/SSLCertificateVerifier.java",
+    "../../../../sdk/android/api/org/webrtc/SdpObserver.java",
+    "../../../../sdk/android/api/org/webrtc/SessionDescription.java",
+    "../../../../sdk/android/api/org/webrtc/StatsObserver.java",
+    "../../../../sdk/android/api/org/webrtc/StatsReport.java",
+    "../../../../sdk/android/api/org/webrtc/TurnCustomizer.java",
+    "../../../../sdk/android/api/org/webrtc/VideoProcessor.java",
+    "../../../../sdk/android/api/org/webrtc/VideoSource.java",
+    "../../../../sdk/android/api/org/webrtc/VideoTrack.java",
+    "../../../../sdk/android/src/java/org/webrtc/NativeAndroidVideoTrackSource.java",
+    "../../../../sdk/android/src/java/org/webrtc/NativeCapturerObserver.java",
+    "../../../../sdk/android/src/java/org/webrtc/NativeLibrary.java",
+    "True",
+    "['*/R.class', '*/R$*.class', '*/Manifest.class', '*/Manifest$*.class', '*/GEN_JNI.class']"
+  ]
+}

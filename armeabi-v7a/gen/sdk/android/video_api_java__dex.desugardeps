@@ -1,0 +1,6 @@
+/org/webrtc/EncodedImage.class -> obj/sdk/android/base_java.turbine.jar:org/webrtc/RefCounted.class
+/org/webrtc/VideoFrame.class -> obj/sdk/android/base_java.turbine.jar:org/webrtc/RefCounted.class
+/org/webrtc/VideoEncoder$CodecSpecificInfoAV1.class -> /org/webrtc/VideoEncoder$CodecSpecificInfo.class
+/org/webrtc/VideoEncoder$CodecSpecificInfoVP8.class -> /org/webrtc/VideoEncoder$CodecSpecificInfo.class
+/org/webrtc/VideoEncoder$CodecSpecificInfoVP9.class -> /org/webrtc/VideoEncoder$CodecSpecificInfo.class
+/org/webrtc/VideoEncoder$CodecSpecificInfoH264.class -> /org/webrtc/VideoEncoder$CodecSpecificInfo.class

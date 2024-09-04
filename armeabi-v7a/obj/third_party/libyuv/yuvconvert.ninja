@@ -1,0 +1,18 @@
+defines = -D_GNU_SOURCE -DANDROID -DHAVE_SYS_UIO_H -DANDROID_NDK_VERSION_ROLL=r22_1 -DCR_CLANG_REVISION=\"llvmorg-14-init-1002-gb5e470aa-1\" -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D_FORTIFY_SOURCE=2 -DNDEBUG -DNVALGRIND -DDYNAMIC_ANNOTATIONS_ENABLED=0
+include_dirs = -I../../../.. -Igen -I../../../../third_party/libyuv/include
+cflags = -fno-delete-null-pointer-checks -fno-ident -fno-strict-aliasing --param=ssp-buffer-size=4 -fstack-protector -funwind-tables -fPIC -fcolor-diagnostics -fmerge-all-constants -fcrash-diagnostics-dir=../../../../tools/clang/crashreports -mllvm -instcombine-lower-dbg-declare=0 -ffp-contract=off -ffunction-sections -fno-short-enums --target=arm-linux-androideabi16 -march=armv7-a -mfloat-abi=softfp -mtune=generic-armv7-a -Wno-builtin-macro-redefined -D__DATE__= -D__TIME__= -D__TIMESTAMP__= -ffile-compilation-dir=. -no-canonical-prefixes -mfpu=neon -mthumb -Wall -Werror -Wextra -Wimplicit-fallthrough -Wunreachable-code -Wthread-safety -Wextra-semi -Wno-missing-field-initializers -Wno-unused-parameter -Wloop-analysis -Wno-unneeded-internal-declaration -Wenum-compare-conditional -Wno-psabi -Wno-ignored-pragma-optimize -Wno-builtin-assume-aligned-alignment -Wno-deprecated-copy -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-inline-asm -Wmax-tokens -Oz -fdata-sections -ffunction-sections -fno-unique-section-names -fomit-frame-pointer -g1 -fdebug-info-for-profiling -fvisibility=hidden -Xclang -add-plugin -Xclang find-bad-constructs -Xclang -plugin-arg-find-bad-constructs -Xclang raw-ptr-template-as-trivial-member -Xclang -plugin-arg-find-bad-constructs -Xclang check-ipc -Wheader-hygiene -Wstring-conversion -Wtautological-overlap-compare
+cflags_cc = -std=c++14 -fno-trigraphs -Wno-trigraphs -fno-exceptions --sysroot=../../../../third_party/android_ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fvisibility-inlines-hidden
+label_name = yuvconvert
+root_out_dir = .
+target_out_dir = obj/third_party/libyuv
+target_output_name = yuvconvert
+
+build obj/third_party/libyuv/yuvconvert/yuvconvert.o: cxx ../../../../third_party/libyuv/util/yuvconvert.cc
+
+build ./yuvconvert ./exe.unstripped/yuvconvert: link obj/third_party/libyuv/yuvconvert/yuvconvert.o obj/third_party/libyuv/libyuv_internal.a obj/third_party/libyuv/libyuv_neon.a obj/third_party/libjpeg_turbo/libjpeg.a obj/third_party/libjpeg_turbo/libsimd.a || obj/third_party/libyuv/libyuv.stamp obj/build/config/executable_deps.stamp obj/third_party/libjpeg_turbo/libjpeg_headers.stamp
+  ldflags = -fuse-ld=lld -Wl,--fatal-warnings -Wl,--build-id -fPIC -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--icf=all -Wl,--color-diagnostics -Wl,--no-rosegment -Wl,--no-call-graph-profile-sort -Wl,--exclude-libs=libgcc.a -Wl,--exclude-libs=libvpx_assembly_arm.a --rtlib=libgcc --target=arm-linux-androideabi16 -Werror -Wl,--warn-shared-textrel -Wl,-O2 -Wl,--gc-sections --sysroot=../../../../third_party/android_ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot --gcc-toolchain=../../../../third_party/android_ndk/toolchains/llvm/prebuilt/linux-x86_64 -Wl,--warn-shared-textrel -Wl,-z,defs -Wl,--as-needed -pie -Bdynamic -Wl,-z,nocopyreloc -Wl,--dynamic-linker,/system/bin/linker
+  libs = -landroid_support -lunwind -ldl -lm
+  frameworks =
+  swiftmodules =
+  output_extension = 
+  output_dir = .

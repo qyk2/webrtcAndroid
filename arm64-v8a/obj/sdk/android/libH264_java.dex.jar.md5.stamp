@@ -1,0 +1,1210 @@
+{
+  "files-md5": "4cd9476f24a99282f310ea6ec5f6e541",
+  "strings-md5": "0343780737e9da9a9230a5e8c5467628",
+  "input-files": [
+    {
+      "path": "../../../../third_party/android_sdk/public/platforms/android-31/android.jar",
+      "tag": 1724919989.7716122
+    },
+    {
+      "path": "../../../../third_party/r8/custom_d8.jar",
+      "tag": "fe02536f40adfc073a510bbbb6d1d3c6"
+    },
+    {
+      "path": "../../../../third_party/r8/lib/r8.jar",
+      "tag": 1724920210.4980195
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/convert_dex_profile.py",
+      "tag": "e6753afd87d704820e70607d34498860"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/dex.py",
+      "tag": "db06a4dc0d57633ca194f0ea7de00354"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/__init__.py",
+      "tag": "adff92ab9daeda8a3fc478ccbcb34b99"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/build_utils.py",
+      "tag": "d34fc29fcf83df8b0e21275db4c7f835"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/md5_check.py",
+      "tag": "d316f5db484d36b4f31dadb1d8d516b5"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/android/gyp/util/zipalign.py",
+      "tag": "8818e89d00e608134a17cc6bbbd30885"
+    },
+    {
+      "path": "/home/qyk/webRTC_Source/webrtc_android/src/build/gn_helpers.py",
+      "tag": "82ccabe8a44083433a315afa418e3a3e"
+    },
+    {
+      "path": "obj/rtc_base/base_java.turbine.jar",
+      "tag": "f9508282abd84d77d3d1445481323de3",
+      "entries": [
+        {
+          "path": "org/webrtc/ContextUtils.class",
+          "tag": 64129025
+        },
+        {
+          "path": "org/webrtc/Loggable.class",
+          "tag": 3467976125
+        },
+        {
+          "path": "org/webrtc/Logging$TraceLevel.class",
+          "tag": 3236503307
+        },
+        {
+          "path": "org/webrtc/Logging$Severity.class",
+          "tag": 3172444188
+        },
+        {
+          "path": "org/webrtc/Logging.class",
+          "tag": 3977484009
+        },
+        {
+          "path": "org/webrtc/Size.class",
+          "tag": 3060632339
+        },
+        {
+          "path": "org/webrtc/ThreadUtils$ThreadChecker.class",
+          "tag": 1150107151
+        },
+        {
+          "path": "org/webrtc/ThreadUtils$BlockingOperation.class",
+          "tag": 99805275
+        },
+        {
+          "path": "org/webrtc/ThreadUtils.class",
+          "tag": 2178114097
+        }
+      ]
+    },
+    {
+      "path": "obj/sdk/android/base_java.turbine.jar",
+      "tag": "2bc894f7e7efab50d5d20f13803bf6c4",
+      "entries": [
+        {
+          "path": "org/webrtc/Predicate.class",
+          "tag": 3775265645
+        },
+        {
+          "path": "org/webrtc/RefCounted.class",
+          "tag": 3306687220
+        },
+        {
+          "path": "org/webrtc/CalledByNative.class",
+          "tag": 2107501822
+        },
+        {
+          "path": "org/webrtc/CalledByNativeUnchecked.class",
+          "tag": 3769612459
+        },
+        {
+          "path": "org/webrtc/Histogram.class",
+          "tag": 1729733105
+        },
+        {
+          "path": "org/webrtc/JniCommon.class",
+          "tag": 44388647
+        },
+        {
+          "path": "org/webrtc/JniHelper.class",
+          "tag": 1999582073
+        },
+        {
+          "path": "org/webrtc/RefCountDelegate.class",
+          "tag": 2531991399
+        },
+        {
+          "path": "org/webrtc/WebRtcClassLoader.class",
+          "tag": 2155081188
+        }
+      ]
+    },
+    {
+      "path": "obj/sdk/android/libH264_java.processed.jar",
+      "tag": "21fd2505e3f11c8337483a386da45d41",
+      "entries": [
+        {
+          "path": "org/webrtc/LibH264Decoder.class",
+          "tag": 477746310
+        },
+        {
+          "path": "org/webrtc/LibH264Encoder.class",
+          "tag": 3933527488
+        }
+      ]
+    },
+    {
+      "path": "obj/sdk/android/libH264_java.turbine.jar",
+      "tag": "85566b6d495d27b98a63cb4c2f0b79fb",
+      "entries": [
+        {
+          "path": "org/webrtc/LibH264Decoder.class",
+          "tag": 3253506295
+        },
+        {
+          "path": "org/webrtc/LibH264Encoder.class",
+          "tag": 79822732
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/WrappedNativeVideoDecoder.class",
+          "tag": 2260708171
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoDecoder.class",
+          "tag": 2094347852
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/WrappedNativeVideoEncoder.class",
+          "tag": 1496202839
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder.class",
+          "tag": 933538731
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoDecoder$Settings.class",
+          "tag": 1926626707
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoDecoder$DecodeInfo.class",
+          "tag": 4280631426
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoDecoder$Callback.class",
+          "tag": 1476614519
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$Settings.class",
+          "tag": 3302379547
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$Capabilities.class",
+          "tag": 2356532746
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$EncodeInfo.class",
+          "tag": 183342285
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$CodecSpecificInfo.class",
+          "tag": 3978340455
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$CodecSpecificInfoVP8.class",
+          "tag": 1014331333
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$CodecSpecificInfoVP9.class",
+          "tag": 1078000526
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$CodecSpecificInfoH264.class",
+          "tag": 3266716153
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$CodecSpecificInfoAV1.class",
+          "tag": 3999525557
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$BitrateAllocation.class",
+          "tag": 1110928941
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$ScalingSettings.class",
+          "tag": 925870110
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$ResolutionBitrateLimits.class",
+          "tag": 2896723383
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$Callback.class",
+          "tag": 3993040127
+        }
+      ]
+    },
+    {
+      "path": "obj/sdk/android/video_api_java.turbine.jar",
+      "tag": "2fec04501f10706f91cf9fd41e949afd",
+      "entries": [
+        {
+          "path": "org/webrtc/CapturerObserver.class",
+          "tag": 3544847250
+        },
+        {
+          "path": "org/webrtc/EncodedImage$FrameType.class",
+          "tag": 1059684825
+        },
+        {
+          "path": "org/webrtc/EncodedImage$Builder.class",
+          "tag": 2959685536
+        },
+        {
+          "path": "org/webrtc/EncodedImage.class",
+          "tag": 2289202187
+        },
+        {
+          "path": "org/webrtc/VideoCodecInfo.class",
+          "tag": 4202013617
+        },
+        {
+          "path": "org/webrtc/VideoCodecStatus.class",
+          "tag": 458272496
+        },
+        {
+          "path": "org/webrtc/VideoDecoder$Settings.class",
+          "tag": 922330998
+        },
+        {
+          "path": "org/webrtc/VideoDecoder$DecodeInfo.class",
+          "tag": 2246281966
+        },
+        {
+          "path": "org/webrtc/VideoDecoder$Callback.class",
+          "tag": 3783686738
+        },
+        {
+          "path": "org/webrtc/VideoDecoder.class",
+          "tag": 855412982
+        },
+        {
+          "path": "org/webrtc/VideoDecoderFactory.class",
+          "tag": 2560808959
+        },
+        {
+          "path": "org/webrtc/VideoEncoder$Settings.class",
+          "tag": 213280318
+        },
+        {
+          "path": "org/webrtc/VideoEncoder$Capabilities.class",
+          "tag": 881729285
+        },
+        {
+          "path": "org/webrtc/VideoEncoder$EncodeInfo.class",
+          "tag": 1927271884
+        },
+        {
+          "path": "org/webrtc/VideoEncoder$CodecSpecificInfo.class",
+          "tag": 342341144
+        },
+        {
+          "path": "org/webrtc/VideoEncoder$CodecSpecificInfoVP8.class",
+          "tag": 4284679295
+        },
+        {
+          "path": "org/webrtc/VideoEncoder$CodecSpecificInfoVP9.class",
+          "tag": 346741763
+        },
+        {
+          "path": "org/webrtc/VideoEncoder$CodecSpecificInfoH264.class",
+          "tag": 1424893704
+        },
+        {
+          "path": "org/webrtc/VideoEncoder$CodecSpecificInfoAV1.class",
+          "tag": 2703675519
+        },
+        {
+          "path": "org/webrtc/VideoEncoder$BitrateAllocation.class",
+          "tag": 1515337609
+        },
+        {
+          "path": "org/webrtc/VideoEncoder$ScalingSettings.class",
+          "tag": 538745335
+        },
+        {
+          "path": "org/webrtc/VideoEncoder$ResolutionBitrateLimits.class",
+          "tag": 3728387096
+        },
+        {
+          "path": "org/webrtc/VideoEncoder$Callback.class",
+          "tag": 338018492
+        },
+        {
+          "path": "org/webrtc/VideoEncoder.class",
+          "tag": 1669093866
+        },
+        {
+          "path": "org/webrtc/VideoEncoderFactory$VideoEncoderSelector.class",
+          "tag": 4216403386
+        },
+        {
+          "path": "org/webrtc/VideoEncoderFactory.class",
+          "tag": 1543637428
+        },
+        {
+          "path": "org/webrtc/VideoFrame$Buffer.class",
+          "tag": 611249733
+        },
+        {
+          "path": "org/webrtc/VideoFrame$I420Buffer.class",
+          "tag": 2827134664
+        },
+        {
+          "path": "org/webrtc/VideoFrame$TextureBuffer$Type.class",
+          "tag": 4055017652
+        },
+        {
+          "path": "org/webrtc/VideoFrame$TextureBuffer.class",
+          "tag": 845034999
+        },
+        {
+          "path": "org/webrtc/VideoFrame.class",
+          "tag": 1032499470
+        },
+        {
+          "path": "org/webrtc/VideoSink.class",
+          "tag": 399035623
+        },
+        {
+          "path": "org/webrtc/VideoFrameBufferType.class",
+          "tag": 4171686648
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/RefCounted.class",
+          "tag": 1044374532
+        }
+      ]
+    },
+    {
+      "path": "obj/sdk/android/video_java.turbine.jar",
+      "tag": "b16b6df0ea72115f77a8bb0f16c8a726",
+      "entries": [
+        {
+          "path": "org/webrtc/EglBase$Context.class",
+          "tag": 1892164644
+        },
+        {
+          "path": "org/webrtc/EglBase$ConfigBuilder.class",
+          "tag": 3650172004
+        },
+        {
+          "path": "org/webrtc/EglBase.class",
+          "tag": 4097606027
+        },
+        {
+          "path": "org/webrtc/EglBase10$Context.class",
+          "tag": 1722069815
+        },
+        {
+          "path": "org/webrtc/EglBase10.class",
+          "tag": 663149477
+        },
+        {
+          "path": "org/webrtc/EglBase14$Context.class",
+          "tag": 38665092
+        },
+        {
+          "path": "org/webrtc/EglBase14.class",
+          "tag": 1786296367
+        },
+        {
+          "path": "org/webrtc/EglRenderer$FrameListener.class",
+          "tag": 3964791770
+        },
+        {
+          "path": "org/webrtc/EglRenderer$ErrorCallback.class",
+          "tag": 667678610
+        },
+        {
+          "path": "org/webrtc/EglRenderer$FrameListenerAndParams.class",
+          "tag": 2211684202
+        },
+        {
+          "path": "org/webrtc/EglRenderer$EglSurfaceCreation.class",
+          "tag": 3726400963
+        },
+        {
+          "path": "org/webrtc/EglRenderer$HandlerWithExceptionCallback.class",
+          "tag": 50749303
+        },
+        {
+          "path": "org/webrtc/EglRenderer.class",
+          "tag": 358689866
+        },
+        {
+          "path": "org/webrtc/GlRectDrawer$ShaderCallbacks.class",
+          "tag": 1767145017
+        },
+        {
+          "path": "org/webrtc/GlRectDrawer.class",
+          "tag": 756053100
+        },
+        {
+          "path": "org/webrtc/GlShader.class",
+          "tag": 973695680
+        },
+        {
+          "path": "org/webrtc/GlTextureFrameBuffer.class",
+          "tag": 3703411513
+        },
+        {
+          "path": "org/webrtc/GlUtil$GlOutOfMemoryException.class",
+          "tag": 1856842527
+        },
+        {
+          "path": "org/webrtc/GlUtil.class",
+          "tag": 1142241341
+        },
+        {
+          "path": "org/webrtc/JavaI420Buffer.class",
+          "tag": 2037800103
+        },
+        {
+          "path": "org/webrtc/RendererCommon$RendererEvents.class",
+          "tag": 662595467
+        },
+        {
+          "path": "org/webrtc/RendererCommon$GlDrawer.class",
+          "tag": 3005395323
+        },
+        {
+          "path": "org/webrtc/RendererCommon$VideoLayoutMeasure.class",
+          "tag": 2712485510
+        },
+        {
+          "path": "org/webrtc/RendererCommon$ScalingType.class",
+          "tag": 3764678280
+        },
+        {
+          "path": "org/webrtc/RendererCommon.class",
+          "tag": 3804452867
+        },
+        {
+          "path": "org/webrtc/SurfaceTextureHelper$FrameRefMonitor.class",
+          "tag": 474892664
+        },
+        {
+          "path": "org/webrtc/SurfaceTextureHelper.class",
+          "tag": 2727603375
+        },
+        {
+          "path": "org/webrtc/TextureBufferImpl$RefCountMonitor.class",
+          "tag": 2745764181
+        },
+        {
+          "path": "org/webrtc/TextureBufferImpl.class",
+          "tag": 2046244328
+        },
+        {
+          "path": "org/webrtc/TimestampAligner.class",
+          "tag": 2732920598
+        },
+        {
+          "path": "org/webrtc/VideoCapturer.class",
+          "tag": 79729969
+        },
+        {
+          "path": "org/webrtc/VideoDecoderFallback.class",
+          "tag": 176646051
+        },
+        {
+          "path": "org/webrtc/VideoEncoderFallback.class",
+          "tag": 2902439414
+        },
+        {
+          "path": "org/webrtc/VideoFrameDrawer$YuvUploader.class",
+          "tag": 969917852
+        },
+        {
+          "path": "org/webrtc/VideoFrameDrawer.class",
+          "tag": 764939341
+        },
+        {
+          "path": "org/webrtc/WrappedNativeVideoDecoder.class",
+          "tag": 3661806310
+        },
+        {
+          "path": "org/webrtc/WrappedNativeVideoEncoder.class",
+          "tag": 2063108886
+        },
+        {
+          "path": "org/webrtc/YuvConverter$ShaderCallbacks.class",
+          "tag": 2104478904
+        },
+        {
+          "path": "org/webrtc/YuvConverter.class",
+          "tag": 2759741753
+        },
+        {
+          "path": "org/webrtc/YuvHelper.class",
+          "tag": 489958275
+        },
+        {
+          "path": "org/webrtc/EglBase10Impl$Context.class",
+          "tag": 3616306668
+        },
+        {
+          "path": "org/webrtc/EglBase10Impl.class",
+          "tag": 361859234
+        },
+        {
+          "path": "org/webrtc/EglBase14Impl$Context.class",
+          "tag": 2524543116
+        },
+        {
+          "path": "org/webrtc/EglBase14Impl.class",
+          "tag": 1082612881
+        },
+        {
+          "path": "org/webrtc/GlGenericDrawer$ShaderType.class",
+          "tag": 1087445302
+        },
+        {
+          "path": "org/webrtc/GlGenericDrawer$ShaderCallbacks.class",
+          "tag": 2301053561
+        },
+        {
+          "path": "org/webrtc/GlGenericDrawer.class",
+          "tag": 3613770846
+        },
+        {
+          "path": "org/webrtc/H264Utils.class",
+          "tag": 3488512746
+        },
+        {
+          "path": "org/webrtc/NV21Buffer.class",
+          "tag": 3946349617
+        },
+        {
+          "path": "org/webrtc/VideoCodecMimeType.class",
+          "tag": 625277574
+        },
+        {
+          "path": "org/webrtc/VideoDecoderWrapper.class",
+          "tag": 3013865863
+        },
+        {
+          "path": "org/webrtc/VideoEncoderWrapper.class",
+          "tag": 442961780
+        },
+        {
+          "path": "org/webrtc/WrappedNativeI420Buffer.class",
+          "tag": 1103784866
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoSink.class",
+          "tag": 1236954241
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoFrame$I420Buffer.class",
+          "tag": 2902749243
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoFrame$Buffer.class",
+          "tag": 3833441981
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/RefCounted.class",
+          "tag": 1044374532
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoFrame$TextureBuffer.class",
+          "tag": 4227629435
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoDecoder.class",
+          "tag": 2094347852
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder.class",
+          "tag": 933538731
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoFrame$TextureBuffer$Type.class",
+          "tag": 1812130960
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoDecoder$Settings.class",
+          "tag": 1926626707
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoDecoder$DecodeInfo.class",
+          "tag": 4280631426
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoDecoder$Callback.class",
+          "tag": 1476614519
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$Settings.class",
+          "tag": 3302379547
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$Capabilities.class",
+          "tag": 2356532746
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$EncodeInfo.class",
+          "tag": 183342285
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$CodecSpecificInfo.class",
+          "tag": 3978340455
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$CodecSpecificInfoVP8.class",
+          "tag": 1014331333
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$CodecSpecificInfoVP9.class",
+          "tag": 1078000526
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$CodecSpecificInfoH264.class",
+          "tag": 3266716153
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$CodecSpecificInfoAV1.class",
+          "tag": 3999525557
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$BitrateAllocation.class",
+          "tag": 1110928941
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$ScalingSettings.class",
+          "tag": 925870110
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$ResolutionBitrateLimits.class",
+          "tag": 2896723383
+        },
+        {
+          "path": "META-INF/TRANSITIVE/org/webrtc/VideoEncoder$Callback.class",
+          "tag": 3993040127
+        }
+      ]
+    },
+    {
+      "path": "obj/third_party/android_deps/com_android_support_support_annotations.ijar.jar",
+      "tag": "42a47b1238e181e1cae045d2c1bdda37",
+      "entries": [
+        {
+          "path": "android/support/annotation/AnimRes.class",
+          "tag": 1562425982
+        },
+        {
+          "path": "android/support/annotation/AnimatorRes.class",
+          "tag": 843319384
+        },
+        {
+          "path": "android/support/annotation/AnyRes.class",
+          "tag": 481075667
+        },
+        {
+          "path": "android/support/annotation/AnyThread.class",
+          "tag": 1499780735
+        },
+        {
+          "path": "android/support/annotation/ArrayRes.class",
+          "tag": 507880322
+        },
+        {
+          "path": "android/support/annotation/AttrRes.class",
+          "tag": 265522084
+        },
+        {
+          "path": "android/support/annotation/BinderThread.class",
+          "tag": 727258353
+        },
+        {
+          "path": "android/support/annotation/BoolRes.class",
+          "tag": 2891548674
+        },
+        {
+          "path": "android/support/annotation/CallSuper.class",
+          "tag": 3182070281
+        },
+        {
+          "path": "android/support/annotation/CheckResult.class",
+          "tag": 1817477209
+        },
+        {
+          "path": "android/support/annotation/ColorInt.class",
+          "tag": 480621226
+        },
+        {
+          "path": "android/support/annotation/ColorLong.class",
+          "tag": 1083568715
+        },
+        {
+          "path": "android/support/annotation/ColorRes.class",
+          "tag": 31685411
+        },
+        {
+          "path": "android/support/annotation/DimenRes.class",
+          "tag": 3492095237
+        },
+        {
+          "path": "android/support/annotation/Dimension.class",
+          "tag": 2937568770
+        },
+        {
+          "path": "android/support/annotation/DrawableRes.class",
+          "tag": 2151651946
+        },
+        {
+          "path": "android/support/annotation/FloatRange.class",
+          "tag": 1008785167
+        },
+        {
+          "path": "android/support/annotation/FontRes.class",
+          "tag": 3848421509
+        },
+        {
+          "path": "android/support/annotation/FractionRes.class",
+          "tag": 57250790
+        },
+        {
+          "path": "android/support/annotation/GuardedBy.class",
+          "tag": 2276733495
+        },
+        {
+          "path": "android/support/annotation/HalfFloat.class",
+          "tag": 2981751098
+        },
+        {
+          "path": "android/support/annotation/IdRes.class",
+          "tag": 1590646282
+        },
+        {
+          "path": "android/support/annotation/IntDef.class",
+          "tag": 159961554
+        },
+        {
+          "path": "android/support/annotation/IntRange.class",
+          "tag": 2891836734
+        },
+        {
+          "path": "android/support/annotation/IntegerRes.class",
+          "tag": 3255824937
+        },
+        {
+          "path": "android/support/annotation/InterpolatorRes.class",
+          "tag": 716811357
+        },
+        {
+          "path": "android/support/annotation/Keep.class",
+          "tag": 798935410
+        },
+        {
+          "path": "android/support/annotation/LayoutRes.class",
+          "tag": 2985868820
+        },
+        {
+          "path": "android/support/annotation/LongDef.class",
+          "tag": 1531387699
+        },
+        {
+          "path": "android/support/annotation/MainThread.class",
+          "tag": 2938365212
+        },
+        {
+          "path": "android/support/annotation/MenuRes.class",
+          "tag": 2482781619
+        },
+        {
+          "path": "android/support/annotation/NavigationRes.class",
+          "tag": 62713771
+        },
+        {
+          "path": "android/support/annotation/NonNull.class",
+          "tag": 3769764700
+        },
+        {
+          "path": "android/support/annotation/Nullable.class",
+          "tag": 1772987621
+        },
+        {
+          "path": "android/support/annotation/PluralsRes.class",
+          "tag": 3296080513
+        },
+        {
+          "path": "android/support/annotation/Px.class",
+          "tag": 416702169
+        },
+        {
+          "path": "android/support/annotation/RawRes.class",
+          "tag": 3037944061
+        },
+        {
+          "path": "android/support/annotation/RequiresApi.class",
+          "tag": 1745931682
+        },
+        {
+          "path": "android/support/annotation/RequiresFeature.class",
+          "tag": 995080394
+        },
+        {
+          "path": "android/support/annotation/RequiresPermission$Read.class",
+          "tag": 2419055564
+        },
+        {
+          "path": "android/support/annotation/RequiresPermission$Write.class",
+          "tag": 4041426528
+        },
+        {
+          "path": "android/support/annotation/RequiresPermission.class",
+          "tag": 2506280928
+        },
+        {
+          "path": "android/support/annotation/RestrictTo$Scope.class",
+          "tag": 2057419459
+        },
+        {
+          "path": "android/support/annotation/RestrictTo.class",
+          "tag": 1870862583
+        },
+        {
+          "path": "android/support/annotation/Size.class",
+          "tag": 347733516
+        },
+        {
+          "path": "android/support/annotation/StringDef.class",
+          "tag": 924210305
+        },
+        {
+          "path": "android/support/annotation/StringRes.class",
+          "tag": 559400619
+        },
+        {
+          "path": "android/support/annotation/StyleRes.class",
+          "tag": 2499078753
+        },
+        {
+          "path": "android/support/annotation/StyleableRes.class",
+          "tag": 3499250285
+        },
+        {
+          "path": "android/support/annotation/TransitionRes.class",
+          "tag": 39627381
+        },
+        {
+          "path": "android/support/annotation/UiThread.class",
+          "tag": 3463657704
+        },
+        {
+          "path": "android/support/annotation/VisibleForTesting.class",
+          "tag": 2923919549
+        },
+        {
+          "path": "android/support/annotation/WorkerThread.class",
+          "tag": 3211303065
+        },
+        {
+          "path": "android/support/annotation/XmlRes.class",
+          "tag": 1454784314
+        }
+      ]
+    },
+    {
+      "path": "obj/third_party/androidx/androidx_annotation_annotation.ijar.jar",
+      "tag": "90b0e626293bb890e3c4831f1b6550b4",
+      "entries": [
+        {
+          "path": "androidx/annotation/AnimRes.class",
+          "tag": 1672096289
+        },
+        {
+          "path": "androidx/annotation/AnimatorRes.class",
+          "tag": 2342241591
+        },
+        {
+          "path": "androidx/annotation/AnyRes.class",
+          "tag": 3439398619
+        },
+        {
+          "path": "androidx/annotation/AnyThread.class",
+          "tag": 1100562632
+        },
+        {
+          "path": "androidx/annotation/ArrayRes.class",
+          "tag": 1507396533
+        },
+        {
+          "path": "androidx/annotation/AttrRes.class",
+          "tag": 827923451
+        },
+        {
+          "path": "androidx/annotation/BinderThread.class",
+          "tag": 2167952372
+        },
+        {
+          "path": "androidx/annotation/BoolRes.class",
+          "tag": 2463307869
+        },
+        {
+          "path": "androidx/annotation/CallSuper.class",
+          "tag": 2882501787
+        },
+        {
+          "path": "androidx/annotation/CheckResult.class",
+          "tag": 1906037787
+        },
+        {
+          "path": "androidx/annotation/ChecksSdkIntAtLeast.class",
+          "tag": 310053868
+        },
+        {
+          "path": "androidx/annotation/ColorInt.class",
+          "tag": 325698826
+        },
+        {
+          "path": "androidx/annotation/ColorLong.class",
+          "tag": 4154629794
+        },
+        {
+          "path": "androidx/annotation/ColorRes.class",
+          "tag": 1182782228
+        },
+        {
+          "path": "androidx/annotation/ContentView.class",
+          "tag": 1412661014
+        },
+        {
+          "path": "androidx/annotation/DimenRes.class",
+          "tag": 2545519922
+        },
+        {
+          "path": "androidx/annotation/Dimension.class",
+          "tag": 358966465
+        },
+        {
+          "path": "androidx/annotation/Discouraged.class",
+          "tag": 3271060965
+        },
+        {
+          "path": "androidx/annotation/DisplayContext.class",
+          "tag": 523830903
+        },
+        {
+          "path": "androidx/annotation/DoNotInline.class",
+          "tag": 58357850
+        },
+        {
+          "path": "androidx/annotation/DrawableRes.class",
+          "tag": 971003653
+        },
+        {
+          "path": "androidx/annotation/FloatRange.class",
+          "tag": 703770317
+        },
+        {
+          "path": "androidx/annotation/FontRes.class",
+          "tag": 3689468122
+        },
+        {
+          "path": "androidx/annotation/FractionRes.class",
+          "tag": 3132513929
+        },
+        {
+          "path": "androidx/annotation/GravityInt.class",
+          "tag": 2337997472
+        },
+        {
+          "path": "androidx/annotation/GuardedBy.class",
+          "tag": 333399686
+        },
+        {
+          "path": "androidx/annotation/HalfFloat.class",
+          "tag": 2361876987
+        },
+        {
+          "path": "androidx/annotation/IdRes.class",
+          "tag": 3877016431
+        },
+        {
+          "path": "androidx/annotation/InspectableProperty$EnumEntry.class",
+          "tag": 3959994721
+        },
+        {
+          "path": "androidx/annotation/InspectableProperty$FlagEntry.class",
+          "tag": 3801728380
+        },
+        {
+          "path": "androidx/annotation/InspectableProperty$ValueType.class",
+          "tag": 2626290083
+        },
+        {
+          "path": "androidx/annotation/InspectableProperty.class",
+          "tag": 1002365520
+        },
+        {
+          "path": "androidx/annotation/IntDef.class",
+          "tag": 632239612
+        },
+        {
+          "path": "androidx/annotation/IntRange.class",
+          "tag": 3641267911
+        },
+        {
+          "path": "androidx/annotation/IntegerRes.class",
+          "tag": 2637631388
+        },
+        {
+          "path": "androidx/annotation/InterpolatorRes.class",
+          "tag": 3347982009
+        },
+        {
+          "path": "androidx/annotation/Keep.class",
+          "tag": 2988612773
+        },
+        {
+          "path": "androidx/annotation/LayoutRes.class",
+          "tag": 2059209683
+        },
+        {
+          "path": "androidx/annotation/LongDef.class",
+          "tag": 1917805546
+        },
+        {
+          "path": "androidx/annotation/MainThread.class",
+          "tag": 385015231
+        },
+        {
+          "path": "androidx/annotation/MenuRes.class",
+          "tag": 2910236140
+        },
+        {
+          "path": "androidx/annotation/NavigationRes.class",
+          "tag": 3252792049
+        },
+        {
+          "path": "androidx/annotation/NonNull.class",
+          "tag": 1681128104
+        },
+        {
+          "path": "androidx/annotation/NonUiContext.class",
+          "tag": 2206470309
+        },
+        {
+          "path": "androidx/annotation/Nullable.class",
+          "tag": 2023258999
+        },
+        {
+          "path": "androidx/annotation/PluralsRes.class",
+          "tag": 2605633332
+        },
+        {
+          "path": "androidx/annotation/Px.class",
+          "tag": 784253576
+        },
+        {
+          "path": "androidx/annotation/RawRes.class",
+          "tag": 1690236917
+        },
+        {
+          "path": "androidx/annotation/RequiresApi.class",
+          "tag": 906545175
+        },
+        {
+          "path": "androidx/annotation/RequiresFeature.class",
+          "tag": 2614195147
+        },
+        {
+          "path": "androidx/annotation/RequiresPermission$Read.class",
+          "tag": 1100968749
+        },
+        {
+          "path": "androidx/annotation/RequiresPermission$Write.class",
+          "tag": 1288348852
+        },
+        {
+          "path": "androidx/annotation/RequiresPermission.class",
+          "tag": 4039710127
+        },
+        {
+          "path": "androidx/annotation/RestrictTo$Scope.class",
+          "tag": 708269074
+        },
+        {
+          "path": "androidx/annotation/RestrictTo.class",
+          "tag": 1200962742
+        },
+        {
+          "path": "androidx/annotation/Size.class",
+          "tag": 1323219967
+        },
+        {
+          "path": "androidx/annotation/StringDef.class",
+          "tag": 3844443901
+        },
+        {
+          "path": "androidx/annotation/StringRes.class",
+          "tag": 3927077740
+        },
+        {
+          "path": "androidx/annotation/StyleRes.class",
+          "tag": 3546825302
+        },
+        {
+          "path": "androidx/annotation/StyleableRes.class",
+          "tag": 3632015626
+        },
+        {
+          "path": "androidx/annotation/TransitionRes.class",
+          "tag": 1629047645
+        },
+        {
+          "path": "androidx/annotation/UiContext.class",
+          "tag": 2909183509
+        },
+        {
+          "path": "androidx/annotation/UiThread.class",
+          "tag": 1544208997
+        },
+        {
+          "path": "androidx/annotation/VisibleForTesting.class",
+          "tag": 880619773
+        },
+        {
+          "path": "androidx/annotation/WorkerThread.class",
+          "tag": 352968604
+        },
+        {
+          "path": "androidx/annotation/XmlRes.class",
+          "tag": 2266730546
+        }
+      ]
+    }
+  ],
+  "input-strings": [
+    "../../../../third_party/jdk/current/bin/java",
+    "-Xmx2G",
+    "-cp",
+    "../../../../third_party/r8/lib/r8.jar:../../../../third_party/r8/custom_d8.jar",
+    "org.chromium.build.CustomD8",
+    "--min-api",
+    "21",
+    "--desugar-dependencies",
+    "gen/sdk/android/libH264_java__dex.desugardeps",
+    "--classpath",
+    "obj/sdk/android/video_java.turbine.jar",
+    "--classpath",
+    "obj/sdk/android/video_api_java.turbine.jar",
+    "--classpath",
+    "obj/third_party/androidx/androidx_annotation_annotation.ijar.jar",
+    "--classpath",
+    "obj/rtc_base/base_java.turbine.jar",
+    "--classpath",
+    "obj/sdk/android/base_java.turbine.jar",
+    "--classpath",
+    "obj/third_party/android_deps/com_android_support_support_annotations.ijar.jar",
+    "--classpath",
+    "obj/sdk/android/libH264_java.turbine.jar",
+    "--lib",
+    "../../../../third_party/jdk/current",
+    "--lib",
+    "../../../../third_party/android_sdk/public/platforms/android-31/android.jar",
+    "--desugared-lib",
+    "../../../../third_party/r8/desugar_jdk_libs.json",
+    "True"
+  ]
+}

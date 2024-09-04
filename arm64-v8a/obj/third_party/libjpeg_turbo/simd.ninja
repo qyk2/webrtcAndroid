@@ -1,0 +1,29 @@
+defines = -DNEON_INTRINSICS -D_GNU_SOURCE -DANDROID -DHAVE_SYS_UIO_H -DANDROID_NDK_VERSION_ROLL=r22_1 -DCR_CLANG_REVISION=\"llvmorg-14-init-1002-gb5e470aa-1\" -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D_FORTIFY_SOURCE=2 -DNDEBUG -DNVALGRIND -DDYNAMIC_ANNOTATIONS_ENABLED=0
+include_dirs = -I../../../../third_party/libjpeg_turbo -I../../../../third_party/libjpeg_turbo/simd/arm -I../../../.. -Igen
+cflags = -fno-delete-null-pointer-checks -fno-ident -fno-strict-aliasing --param=ssp-buffer-size=4 -fstack-protector -funwind-tables -fPIC -fcolor-diagnostics -fmerge-all-constants -fcrash-diagnostics-dir=../../../../tools/clang/crashreports -mllvm -instcombine-lower-dbg-declare=0 -ffp-contract=off -ffunction-sections -fno-short-enums --rtlib=libgcc --target=aarch64-linux-android21 -mno-outline -Wno-builtin-macro-redefined -D__DATE__= -D__TIME__= -D__TIMESTAMP__= -ffile-compilation-dir=. -no-canonical-prefixes -Wall -Werror -Wextra -Wimplicit-fallthrough -Wunreachable-code -Wthread-safety -Wextra-semi -Wno-missing-field-initializers -Wno-unused-parameter -Wloop-analysis -Wno-unneeded-internal-declaration -Wenum-compare-conditional -Wno-psabi -Wno-ignored-pragma-optimize -Wno-builtin-assume-aligned-alignment -Wno-deprecated-copy -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-inline-asm -Wmax-tokens -fno-omit-frame-pointer -g1 -fdebug-info-for-profiling -fvisibility=hidden -Xclang -add-plugin -Xclang find-bad-constructs -Xclang -plugin-arg-find-bad-constructs -Xclang raw-ptr-template-as-trivial-member -Xclang -plugin-arg-find-bad-constructs -Xclang check-ipc -Wheader-hygiene -Wstring-conversion -Wtautological-overlap-compare -O3 -fdata-sections -ffunction-sections -fno-unique-section-names
+cflags_c = -std=c11 --sysroot=../../../../third_party/android_ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot
+label_name = simd
+root_out_dir = .
+target_out_dir = obj/third_party/libjpeg_turbo
+target_output_name = libsimd
+
+build obj/third_party/libjpeg_turbo/simd/jccolor-neon.o: cc ../../../../third_party/libjpeg_turbo/simd/arm/jccolor-neon.c
+build obj/third_party/libjpeg_turbo/simd/jcgray-neon.o: cc ../../../../third_party/libjpeg_turbo/simd/arm/jcgray-neon.c
+build obj/third_party/libjpeg_turbo/simd/jcphuff-neon.o: cc ../../../../third_party/libjpeg_turbo/simd/arm/jcphuff-neon.c
+build obj/third_party/libjpeg_turbo/simd/jcsample-neon.o: cc ../../../../third_party/libjpeg_turbo/simd/arm/jcsample-neon.c
+build obj/third_party/libjpeg_turbo/simd/jdcolor-neon.o: cc ../../../../third_party/libjpeg_turbo/simd/arm/jdcolor-neon.c
+build obj/third_party/libjpeg_turbo/simd/jdmerge-neon.o: cc ../../../../third_party/libjpeg_turbo/simd/arm/jdmerge-neon.c
+build obj/third_party/libjpeg_turbo/simd/jdsample-neon.o: cc ../../../../third_party/libjpeg_turbo/simd/arm/jdsample-neon.c
+build obj/third_party/libjpeg_turbo/simd/jfdctfst-neon.o: cc ../../../../third_party/libjpeg_turbo/simd/arm/jfdctfst-neon.c
+build obj/third_party/libjpeg_turbo/simd/jfdctint-neon.o: cc ../../../../third_party/libjpeg_turbo/simd/arm/jfdctint-neon.c
+build obj/third_party/libjpeg_turbo/simd/jidctfst-neon.o: cc ../../../../third_party/libjpeg_turbo/simd/arm/jidctfst-neon.c
+build obj/third_party/libjpeg_turbo/simd/jidctint-neon.o: cc ../../../../third_party/libjpeg_turbo/simd/arm/jidctint-neon.c
+build obj/third_party/libjpeg_turbo/simd/jidctred-neon.o: cc ../../../../third_party/libjpeg_turbo/simd/arm/jidctred-neon.c
+build obj/third_party/libjpeg_turbo/simd/jquanti-neon.o: cc ../../../../third_party/libjpeg_turbo/simd/arm/jquanti-neon.c
+build obj/third_party/libjpeg_turbo/simd/jchuff-neon.o: cc ../../../../third_party/libjpeg_turbo/simd/arm/aarch64/jchuff-neon.c
+build obj/third_party/libjpeg_turbo/simd/jsimd.o: cc ../../../../third_party/libjpeg_turbo/simd/arm/aarch64/jsimd.c
+
+build obj/third_party/libjpeg_turbo/libsimd.a: alink obj/third_party/libjpeg_turbo/simd/jccolor-neon.o obj/third_party/libjpeg_turbo/simd/jcgray-neon.o obj/third_party/libjpeg_turbo/simd/jcphuff-neon.o obj/third_party/libjpeg_turbo/simd/jcsample-neon.o obj/third_party/libjpeg_turbo/simd/jdcolor-neon.o obj/third_party/libjpeg_turbo/simd/jdmerge-neon.o obj/third_party/libjpeg_turbo/simd/jdsample-neon.o obj/third_party/libjpeg_turbo/simd/jfdctfst-neon.o obj/third_party/libjpeg_turbo/simd/jfdctint-neon.o obj/third_party/libjpeg_turbo/simd/jidctfst-neon.o obj/third_party/libjpeg_turbo/simd/jidctint-neon.o obj/third_party/libjpeg_turbo/simd/jidctred-neon.o obj/third_party/libjpeg_turbo/simd/jquanti-neon.o obj/third_party/libjpeg_turbo/simd/jchuff-neon.o obj/third_party/libjpeg_turbo/simd/jsimd.o || obj/third_party/libjpeg_turbo/libjpeg_headers.stamp
+  arflags = -T
+  output_extension = .a
+  output_dir = obj/third_party/libjpeg_turbo

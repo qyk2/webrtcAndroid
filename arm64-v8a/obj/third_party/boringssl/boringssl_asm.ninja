@@ -1,0 +1,20 @@
+defines = -D_GNU_SOURCE -DANDROID -DHAVE_SYS_UIO_H -DANDROID_NDK_VERSION_ROLL=r22_1 -DCR_CLANG_REVISION=\"llvmorg-14-init-1002-gb5e470aa-1\" -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D_FORTIFY_SOURCE=2 -DNDEBUG -DNVALGRIND -DDYNAMIC_ANNOTATIONS_ENABLED=0
+include_dirs = -I../../../../third_party/boringssl/src/include -I../../../.. -Igen
+asmflags = -fPIC -fno-delete-null-pointer-checks -fno-ident -fno-strict-aliasing --param=ssp-buffer-size=4 -fstack-protector -funwind-tables -fPIC -fcolor-diagnostics -fmerge-all-constants -fcrash-diagnostics-dir=../../../../tools/clang/crashreports -mllvm -instcombine-lower-dbg-declare=0 -ffp-contract=off -std=c11 -ffunction-sections -fno-short-enums --rtlib=libgcc --target=aarch64-linux-android21 -mno-outline -Wa,-fdebug-compilation-dir,. -g1 -fdebug-info-for-profiling --sysroot=../../../../third_party/android_ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot
+label_name = boringssl_asm
+root_out_dir = .
+target_out_dir = obj/third_party/boringssl
+target_output_name = boringssl_asm
+
+build obj/third_party/boringssl/boringssl_asm/chacha-armv8.o: asm ../../../../third_party/boringssl/linux-aarch64/crypto/chacha/chacha-armv8.S
+build obj/third_party/boringssl/boringssl_asm/aesv8-armx64.o: asm ../../../../third_party/boringssl/linux-aarch64/crypto/fipsmodule/aesv8-armx64.S
+build obj/third_party/boringssl/boringssl_asm/armv8-mont.o: asm ../../../../third_party/boringssl/linux-aarch64/crypto/fipsmodule/armv8-mont.S
+build obj/third_party/boringssl/boringssl_asm/ghash-neon-armv8.o: asm ../../../../third_party/boringssl/linux-aarch64/crypto/fipsmodule/ghash-neon-armv8.S
+build obj/third_party/boringssl/boringssl_asm/ghashv8-armx64.o: asm ../../../../third_party/boringssl/linux-aarch64/crypto/fipsmodule/ghashv8-armx64.S
+build obj/third_party/boringssl/boringssl_asm/sha1-armv8.o: asm ../../../../third_party/boringssl/linux-aarch64/crypto/fipsmodule/sha1-armv8.S
+build obj/third_party/boringssl/boringssl_asm/sha256-armv8.o: asm ../../../../third_party/boringssl/linux-aarch64/crypto/fipsmodule/sha256-armv8.S
+build obj/third_party/boringssl/boringssl_asm/sha512-armv8.o: asm ../../../../third_party/boringssl/linux-aarch64/crypto/fipsmodule/sha512-armv8.S
+build obj/third_party/boringssl/boringssl_asm/vpaes-armv8.o: asm ../../../../third_party/boringssl/linux-aarch64/crypto/fipsmodule/vpaes-armv8.S
+build obj/third_party/boringssl/boringssl_asm/trampoline-armv8.o: asm ../../../../third_party/boringssl/linux-aarch64/crypto/test/trampoline-armv8.S
+
+build obj/third_party/boringssl/boringssl_asm.stamp: stamp obj/third_party/boringssl/boringssl_asm/chacha-armv8.o obj/third_party/boringssl/boringssl_asm/aesv8-armx64.o obj/third_party/boringssl/boringssl_asm/armv8-mont.o obj/third_party/boringssl/boringssl_asm/ghash-neon-armv8.o obj/third_party/boringssl/boringssl_asm/ghashv8-armx64.o obj/third_party/boringssl/boringssl_asm/sha1-armv8.o obj/third_party/boringssl/boringssl_asm/sha256-armv8.o obj/third_party/boringssl/boringssl_asm/sha512-armv8.o obj/third_party/boringssl/boringssl_asm/vpaes-armv8.o obj/third_party/boringssl/boringssl_asm/trampoline-armv8.o

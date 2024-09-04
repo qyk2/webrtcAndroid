@@ -1,0 +1,71 @@
+{
+  "deps_info": {
+    "bundled_srcjars": [],
+    "chromium_code": true,
+    "deps_configs": [
+      "gen/third_party/android_deps/org_ow2_asm_asm_java.build_config.json",
+      "gen/third_party/android_deps/org_ow2_asm_asm_util_java.build_config.json"
+    ],
+    "extra_main_r_text_files": [],
+    "gn_target": "//build/android/bytecode:bytecode_processor",
+    "host_classpath": [
+      "lib.java/build/android/bytecode/bytecode_processor.jar",
+      "lib.java/third_party/android_deps/org_ow2_asm_asm.jar",
+      "lib.java/third_party/android_deps/org_ow2_asm_asm_tree.jar",
+      "lib.java/third_party/android_deps/org_ow2_asm_asm_analysis.jar",
+      "lib.java/third_party/android_deps/org_ow2_asm_asm_util.jar"
+    ],
+    "host_jar_path": "lib.java/build/android/bytecode/bytecode_processor.jar",
+    "interface_jar_path": "obj/build/android/bytecode/bytecode_processor.turbine.jar",
+    "java_sources_file": "gen/build/android/bytecode/bytecode_processor.sources",
+    "javac_full_classpath": [
+      "../../../../third_party/android_deps/libs/org_ow2_asm_asm_util/asm-util-7.0.jar",
+      "../../../../third_party/android_deps/libs/org_ow2_asm_asm_analysis/asm-analysis-7.0.jar",
+      "../../../../third_party/android_deps/libs/org_ow2_asm_asm_tree/asm-tree-7.0.jar",
+      "../../../../third_party/android_deps/libs/org_ow2_asm_asm/asm-7.0.jar"
+    ],
+    "javac_full_classpath_targets": [
+      "//third_party/android_deps:org_ow2_asm_asm_util_java",
+      "//third_party/android_deps:org_ow2_asm_asm_analysis_java",
+      "//third_party/android_deps:org_ow2_asm_asm_tree_java",
+      "//third_party/android_deps:org_ow2_asm_asm_java"
+    ],
+    "javac_full_interface_classpath": [
+      "obj/third_party/android_deps/org_ow2_asm_asm_util.ijar.jar",
+      "obj/third_party/android_deps/org_ow2_asm_asm_analysis.ijar.jar",
+      "obj/third_party/android_deps/org_ow2_asm_asm_tree.ijar.jar",
+      "obj/third_party/android_deps/org_ow2_asm_asm.ijar.jar"
+    ],
+    "main_class": "org.chromium.bytecode.ByteCodeProcessor",
+    "name": "bytecode_processor.build_config.json",
+    "path": "gen/build/android/bytecode/bytecode_processor.build_config.json",
+    "public_deps_configs": [],
+    "requires_android": false,
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": false,
+    "type": "java_binary",
+    "unprocessed_jar_path": "obj/build/android/bytecode/bytecode_processor.javac.jar"
+  },
+  "gradle": {
+    "bundled_srcjars": [],
+    "dependent_android_projects": [],
+    "dependent_java_projects": [],
+    "dependent_prebuilt_jars": [
+      "../../../../third_party/android_deps/libs/org_ow2_asm_asm/asm-7.0.jar",
+      "../../../../third_party/android_deps/libs/org_ow2_asm_asm_util/asm-util-7.0.jar"
+    ]
+  },
+  "javac": {
+    "classpath": [
+      "../../../../third_party/android_deps/libs/org_ow2_asm_asm/asm-7.0.jar",
+      "../../../../third_party/android_deps/libs/org_ow2_asm_asm_util/asm-util-7.0.jar"
+    ],
+    "interface_classpath": [
+      "obj/third_party/android_deps/org_ow2_asm_asm.ijar.jar",
+      "obj/third_party/android_deps/org_ow2_asm_asm_util.ijar.jar"
+    ],
+    "processor_classes": [],
+    "processor_classpath": []
+  }
+}

@@ -1,0 +1,9 @@
+defines = -D_GNU_SOURCE -DANDROID -DHAVE_SYS_UIO_H -DANDROID_NDK_VERSION_ROLL=r22_1 -DCR_CLANG_REVISION=\"llvmorg-14-init-1002-gb5e470aa-1\" -DNDEBUG -DNVALGRIND -DDYNAMIC_ANNOTATIONS_ENABLED=0 -DABSL_ALLOCATOR_NOTHROW=1
+include_dirs = -I../../../.. -Igen -I../../../../third_party/abseil-cpp
+label_name = dynamic_annotations
+root_out_dir = .
+target_out_dir = obj/third_party/abseil-cpp/absl/base
+target_output_name = dynamic_annotations
+
+
+build obj/third_party/abseil-cpp/absl/base/dynamic_annotations.stamp: stamp || obj/third_party/abseil-cpp/absl/base/config.stamp obj/third_party/abseil-cpp/absl/base/core_headers.stamp

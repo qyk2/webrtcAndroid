@@ -1,0 +1,4 @@
+./exe.unstripped/obj/third_party/opus/opus_tests/opus_tests
+../../../../third_party/opus/tests/resources/speech_mono_32_48kHz.pcm
+../../../../testing/location_tags.json
+icudtl.dat

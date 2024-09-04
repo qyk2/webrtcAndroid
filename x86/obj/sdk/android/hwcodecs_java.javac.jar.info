@@ -1,0 +1,15 @@
+org.webrtc.AndroidVideoDecoder,../../../../sdk/android/src/java/org/webrtc/AndroidVideoDecoder.java
+org.webrtc.BaseBitrateAdjuster,../../../../sdk/android/src/java/org/webrtc/BaseBitrateAdjuster.java
+org.webrtc.BitrateAdjuster,../../../../sdk/android/src/java/org/webrtc/BitrateAdjuster.java
+org.webrtc.DynamicBitrateAdjuster,../../../../sdk/android/src/java/org/webrtc/DynamicBitrateAdjuster.java
+org.webrtc.FramerateBitrateAdjuster,../../../../sdk/android/src/java/org/webrtc/FramerateBitrateAdjuster.java
+org.webrtc.HardwareVideoDecoderFactory,../../../../sdk/android/api/org/webrtc/HardwareVideoDecoderFactory.java
+org.webrtc.HardwareVideoEncoder,../../../../sdk/android/src/java/org/webrtc/HardwareVideoEncoder.java
+org.webrtc.HardwareVideoEncoderFactory,../../../../sdk/android/api/org/webrtc/HardwareVideoEncoderFactory.java
+org.webrtc.MediaCodecUtils,../../../../sdk/android/src/java/org/webrtc/MediaCodecUtils.java
+org.webrtc.MediaCodecVideoDecoderFactory,../../../../sdk/android/src/java/org/webrtc/MediaCodecVideoDecoderFactory.java
+org.webrtc.MediaCodecWrapper,../../../../sdk/android/src/java/org/webrtc/MediaCodecWrapper.java
+org.webrtc.MediaCodecWrapperFactory,../../../../sdk/android/src/java/org/webrtc/MediaCodecWrapperFactory.java
+org.webrtc.MediaCodecWrapperFactoryImpl,../../../../sdk/android/src/java/org/webrtc/MediaCodecWrapperFactoryImpl.java
+org.webrtc.NV12Buffer,../../../../sdk/android/src/java/org/webrtc/NV12Buffer.java
+org.webrtc.PlatformSoftwareVideoDecoderFactory,../../../../sdk/android/api/org/webrtc/PlatformSoftwareVideoDecoderFactory.java
